@@ -2,94 +2,117 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demo Luận Tên Ngũ Hành</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body class="bg-slate-100 min-h-screen">
-    <div class="max-w-5xl mx-auto p-6">
+    <div class="max-w-5xl mx-auto p-4 sm:p-6">
       <!-- Header -->
-      <header class="text-center mb-10">
-        <h1 class="text-3xl font-bold text-slate-800">
+      <header class="text-center mb-8 sm:mb-10">
+        <h1 class="text-2xl sm:text-3xl font-bold text-slate-800">
           🔮 Demo Luận Giải Họ Tên
         </h1>
-        <p class="text-slate-600 mt-2">
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
           Ngũ hành • Ba biểu thế • Cặp Mệnh–Phụ • 5 vận số học
         </p>
       </header>
 
       <!-- Input -->
-      <div
-        class="bg-white rounded-2xl shadow-lg p-6 flex gap-3 items-center"
-      >
-        <input
-          id="nameInput"
-          type="text"
-          placeholder="Nhập họ tên... (VD: Trần Minh Quân)"
-          class="flex-1 border rounded-xl px-4 py-3 focus:ring focus:ring-blue-300"
-        />
+      <div class="bg-white rounded-2xl shadow-lg p-4 sm:p-6">
+        <div class="flex flex-col sm:flex-row gap-3 items-stretch">
+          <input
+            id="nameInput"
+            type="text"
+            placeholder="Nhập họ tên... (VD: Trần Minh Quân)"
+            class="flex-1 border rounded-xl px-4 py-3 focus:ring focus:ring-blue-300"
+          />
 
-        <button
-          id="btnPredict"
-          class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 font-semibold"
-        >
-          Xem luận giải
-        </button>
+          <button
+            id="btnPredict"
+            class="w-full sm:w-auto bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 font-semibold"
+          >
+            Xem luận giải
+          </button>
+        </div>
       </div>
 
       <!-- Results -->
-      <div id="results" class="hidden mt-10 space-y-8">
+      <div id="results" class="hidden mt-8 sm:mt-10 space-y-6 sm:space-y-8">
         <!-- Prediction -->
-        <div class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-xl font-bold mb-4">📌 Prediction</h2>
+        <div class="bg-white rounded-2xl shadow p-4 sm:p-6">
+          <h2 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
+            📌 Prediction
+          </h2>
+
           <ul
             id="predictionList"
-            class="space-y-2 text-slate-700 list-disc pl-6"
+            class="space-y-2 text-slate-700 list-disc pl-5 sm:pl-6 text-sm sm:text-base"
           ></ul>
         </div>
 
         <!-- 5 Destiny Table -->
-        <div class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-xl font-bold mb-4">📊 Bảng 5 Vận</h2>
-          <div id="destinyTable" class="grid md:grid-cols-5 gap-4"></div>
+        <div class="bg-white rounded-2xl shadow p-4 sm:p-6">
+          <h2 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
+            📊 Bảng 5 Vận
+          </h2>
+
+          <!-- Responsive Grid -->
+          <div
+            id="destinyTable"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4"
+          ></div>
         </div>
 
         <!-- Ba Bieu The -->
-        <div class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-xl font-bold mb-4">🌿 Ba Biểu Thế</h2>
-          <p class="text-slate-700 mb-2">
+        <div class="bg-white rounded-2xl shadow p-4 sm:p-6">
+          <h2 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
+            🌿 Ba Biểu Thế
+          </h2>
+
+          <p class="text-slate-700 text-sm sm:text-base mb-2">
             <span class="font-semibold">Tổ hợp:</span>
             <span id="threeStates"></span>
           </p>
-          <p class="text-slate-700">
+
+          <p class="text-slate-700 text-sm sm:text-base">
             <span class="font-semibold">Luận giải:</span>
             <span id="threeMeaning"></span>
           </p>
         </div>
 
         <!-- Menh-Phu -->
-        <div class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-xl font-bold mb-4">⚡ Cặp Mệnh – Phụ</h2>
-          <p class="text-slate-700 mb-2">
+        <div class="bg-white rounded-2xl shadow p-4 sm:p-6">
+          <h2 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
+            ⚡ Cặp Mệnh – Phụ
+          </h2>
+
+          <p class="text-slate-700 text-sm sm:text-base mb-2">
             <span class="font-semibold">Cặp:</span>
             <span id="menhPhuKey"></span>
           </p>
-          <p class="text-slate-700 mb-2">
+
+          <p class="text-slate-700 text-sm sm:text-base mb-2">
             <span class="font-semibold">Định tính:</span>
             <span id="menhPhuLuck"></span>
           </p>
-          <p class="text-slate-700">
+
+          <p class="text-slate-700 text-sm sm:text-base">
             <span class="font-semibold">Luận giải:</span>
             <span id="menhPhuMeaning"></span>
           </p>
         </div>
 
         <!-- Raw JSON -->
-        <div class="bg-white rounded-2xl shadow p-6">
-          <h2 class="text-xl font-bold mb-4">🧾 JSON Output</h2>
+        <div class="bg-white rounded-2xl shadow p-4 sm:p-6">
+          <h2 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
+            🧾 JSON Output
+          </h2>
+
           <pre
             id="jsonOutput"
-            class="bg-slate-900 text-green-200 p-4 rounded-xl overflow-auto max-h-96 text-sm"
+            class="bg-slate-900 text-green-200 p-4 rounded-xl overflow-auto max-h-72 sm:max-h-96 text-xs sm:text-sm"
           ></pre>
         </div>
       </div>
