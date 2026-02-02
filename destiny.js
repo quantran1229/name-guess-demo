@@ -1,10 +1,8 @@
 const nguHanh = await fetch("./data/ngu_hanh_125_full.json").then((r) =>
-  r.json()
+  r.json(),
 );
 import numberMeanings from "./data/number_meaning.js";
-const menhPhu = await fetch("./data/menh_phu_link.json").then((r) =>
-  r.json()
-);
+const menhPhu = await fetch("./data/menh_phu_link.json").then((r) => r.json());
 // ============================================================
 // PART 1 — STROKE COUNTING SYSTEM
 // ============================================================
@@ -231,6 +229,34 @@ function getMenhPhuLink(menhRaw, phuRaw) {
   );
 }
 
+// ================================
+// SCORE SYSTEM
+// ================================
+
+// Luck → base score (0–20)
+const luckScoreMap = {
+  "Rất tốt": 20,
+  Tốt: 16,
+  Được: 12,
+  Xấu: 4,
+  "Rất xấu": 0,
+};
+
+// Weighted points for 5 destinies (total = 50)
+const destinyWeights = {
+  tongVan: 20,
+  menhVan: 10,
+  hoVan: 6.6,
+  tenVan: 6.6,
+  phuVan: 6.6,
+};
+
+// Convert luck label → weighted score
+function calcLuckWeightedScore(luck, weight) {
+  let base = luckScoreMap[luck] ?? 0; // 0–20
+  return (base / 20) * weight;
+}
+
 export function computeDestiny(fullName) {
   let parsed = parseVietnameseName(fullName);
 
@@ -245,19 +271,25 @@ export function computeDestiny(fullName) {
     return countWordStrokes(text);
   }
 
-  // Raw values
+  // ================================
+  // PART 1 — RAW VALUES
+  // ================================
   let hoVan = strokes(surname) + strokes(middleSurname) + plusOne;
   let tenVan = strokes(secondaryName) + strokes(mainName);
   let menhVan = strokes(middleSurname) + plusOne + strokes(initialSound);
+
   let tongVan =
     strokes(surname) +
     strokes(middleSurname) +
     strokes(secondaryName) +
     strokes(mainName) +
     plusOne;
+
   let phuVan = tongVan - menhVan;
 
-  // Practical reduction + classification
+  // ================================
+  // PART 2 — BUILD RESULT OBJECT
+  // ================================
   function buildResult(value) {
     let p = practicalNumber(value);
     return {
@@ -267,28 +299,6 @@ export function computeDestiny(fullName) {
     };
   }
 
-  let baBieuThe = {
-    dau: convertToAmDuongNguHanh(hoVan), // Họ vận
-    giua: convertToAmDuongNguHanh(menhVan), // Mệnh vận
-    cuoi: convertToAmDuongNguHanh(tenVan), // Tên vận
-  };
-
-  let menhPhuLink = getMenhPhuLink(menhVan, phuVan);
-  const menhPhu = {
-      menh: reduceTo1to10(menhVan),
-      phu: reduceTo1to10(phuVan),
-      luck: menhPhuLink.luck,
-      meaning: menhPhuLink.meaning,
-    };
-  baBieuThe.three_states_interpretation =
-    baBieuThe.dau.hanh +
-    " - " +
-    baBieuThe.giua.hanh +
-    " - " +
-    baBieuThe.cuoi.hanh;
-
-  baBieuThe.meaning_interpretation =
-    nguHanh[baBieuThe.three_states_interpretation] || "(Chưa có mô tả)";
   let result = {
     hoVan: buildResult(hoVan),
     tenVan: buildResult(tenVan),
@@ -297,11 +307,82 @@ export function computeDestiny(fullName) {
     phuVan: buildResult(phuVan),
   };
 
+  // ================================
+  // PART 3 — BA BIỂU THẾ (25 pts)
+  // ================================
+  let baBieuThe = {
+    dau: convertToAmDuongNguHanh(hoVan),
+    giua: convertToAmDuongNguHanh(menhVan),
+    cuoi: convertToAmDuongNguHanh(tenVan),
+  };
+
+  baBieuThe.three_states_interpretation =
+    baBieuThe.dau.hanh +
+    " - " +
+    baBieuThe.giua.hanh +
+    " - " +
+    baBieuThe.cuoi.hanh;
+
+  const nguHanhObj = nguHanh[baBieuThe.three_states_interpretation];
+
+  baBieuThe.meaning_interpretation = nguHanhObj
+    ? nguHanhObj.meaning
+    : "(Chưa có mô tả)";
+
+  baBieuThe.score = nguHanhObj ? nguHanhObj.score : 0; // 0–25
+
+  // ================================
+  // PART 4 — MỆNH–PHỤ LINK (25 pts)
+  // ================================
+  let menhPhuLink = getMenhPhuLink(menhVan, phuVan);
+
+  const menhPhu = {
+    menh: reduceTo1to10(menhVan),
+    phu: reduceTo1to10(phuVan),
+    luck: menhPhuLink.luck,
+    meaning: menhPhuLink.meaning,
+    score: menhPhuLink.score ?? 0, // 0–25
+  };
+
+  // ================================
+  // PART 5 — 5 VẬN SCORE (50 pts)
+  // ================================
+  let destinyScore = 0;
+
+  for (let key in destinyWeights) {
+    destinyScore += calcLuckWeightedScore(
+      result[key].luck,
+      destinyWeights[key]
+    );
+  }
+
+  // ================================
+  // PART 6 — FINAL TOTAL SCORE (100)
+  // ================================
+  let totalScore =
+    destinyScore + baBieuThe.score + menhPhu.score;
+
+  totalScore = Math.round(totalScore * 10) / 10; // round 1 decimal
+
+  // ================================
+  // OUTPUT
+  // ================================
   return {
     input: fullName,
+
     result,
+
     baBieuThe,
+
     menhPhu,
+
+    scoring: {
+      destinyScore: Math.round(destinyScore * 10) / 10, // /50
+      baBieuTheScore: baBieuThe.score, // /25
+      menhPhuScore: menhPhu.score, // /25
+      totalScore, // /100
+    },
+
     prediction: [
       result.hoVan.meaning,
       result.tenVan.meaning,
@@ -309,7 +390,7 @@ export function computeDestiny(fullName) {
       result.tongVan.meaning,
       result.phuVan.meaning,
       baBieuThe.meaning_interpretation,
-      menhPhu.meaning
+      menhPhu.meaning,
     ],
   };
 }

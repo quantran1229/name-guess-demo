@@ -1,402 +1,502 @@
 {
   "1-1": {
     "luck": "Tốt",
-    "meaning": "Ôn hòa, thẳng tính, nhưng đa nghi, ham vật chất, mưu trí, có khả năng giao thiệp"
+    "meaning": "Ôn hòa, thẳng tính, nhưng đa nghi, ham vật chất, mưu trí, có khả năng giao thiệp",
+    "score": 20
   },
   "1-2": {
     "luck": "Tốt",
-    "meaning": "Tính ngoài mềm mỏng, trong cứng rắn, đa nghi, hay làm, thầm kín, ít nói"
+    "meaning": "Tính ngoài mềm mỏng, trong cứng rắn, đa nghi, hay làm, thầm kín, ít nói",
+    "score": 20
   },
   "1-3": {
     "luck": "Tốt",
-    "meaning": "Được giúp đỡ, quan hệ xã hội tốt, được tôn trọng. Tính thích danh lợi, cần kiệm, làm nên từ số không"
+    "meaning": "Được giúp đỡ, quan hệ xã hội tốt, được tôn trọng. Tính thích danh lợi, cần kiệm, làm nên từ số không",
+    "score": 20
   },
   "1-4": {
     "luck": "Tốt",
-    "meaning": "Tính chu đáo, nhẫn nại, ngay thẳng, ngoại giao tốt, ưa tĩnh lặng, cô độc"
+    "meaning": "Tính chu đáo, nhẫn nại, ngay thẳng, ngoại giao tốt, ưa tĩnh lặng, cô độc",
+    "score": 20
   },
   "1-5": {
     "luck": "Tốt",
-    "meaning": "Trọng chữ tín, ưa yên thân, tính cố chấp, thành công, tự cao tự đại"
+    "meaning": "Trọng chữ tín, ưa yên thân, tính cố chấp, thành công, tự cao tự đại",
+    "score": 20
   },
   "1-6": {
     "luck": "Được",
-    "meaning": "Trọng chữ tín, khó tính và thâm trầm, ít nói, ưa tĩnh lặng, bó mình"
+    "meaning": "Trọng chữ tín, khó tính và thâm trầm, ít nói, ưa tĩnh lặng, bó mình",
+    "score": 15
   },
   "1-7": {
     "luck": "Được",
-    "meaning": "Giàu lý trí, cứng rắn nhưng bề ngoài nhã nhặn, có tính đa nghi, thích giao tiếp"
+    "meaning": "Giàu lý trí, cứng rắn nhưng bề ngoài nhã nhặn, có tính đa nghi, thích giao tiếp",
+    "score": 15
   },
   "1-8": {
     "luck": "Được",
-    "meaning": "Tính khiêm tốn, nhân hậu, giao tiếp rộng, vị tha, thích tự lập, tự làm, độc lập"
+    "meaning": "Tính khiêm tốn, nhân hậu, giao tiếp rộng, vị tha, thích tự lập, tự làm, độc lập",
+    "score": 15
   },
   "1-9": {
     "luck": "Rất tốt",
-    "meaning": "Giao thiệp rộng, trọng nghĩa khí, không hám vật chất, được mọi người kính trọng"
+    "meaning": "Giao thiệp rộng, trọng nghĩa khí, không hám vật chất, được mọi người kính trọng",
+    "score": 25
   },
   "1-10": {
     "luck": "Được",
-    "meaning": "Tính kiên quyết, không khuất phục, có năng lực và mưu lược, thích tĩnh, yên thân"
+    "meaning": "Tính kiên quyết, không khuất phục, có năng lực và mưu lược, thích tĩnh, yên thân",
+    "score": 15
   },
   "2-1": {
     "luck": "Tốt",
-    "meaning": "Ngoài mềm mỏng, trong cứng cỏi, mưu trí, có thể có tính cương cường, cố chấp"
+    "meaning": "Ngoài mềm mỏng, trong cứng cỏi, mưu trí, có thể có tính cương cường, cố chấp",
+    "score": 20
   },
   "2-2": {
     "luck": "Được",
-    "meaning": "Chịu đựng cao, dễ thích nghi hoàn cảnh, có lòng đố kỵ, ham muốn tài lộc, thích yên tĩnh"
+    "meaning": "Chịu đựng cao, dễ thích nghi hoàn cảnh, có lòng đố kỵ, ham muốn tài lộc, thích yên tĩnh",
+    "score": 15
   },
   "2-3": {
     "luck": "Được",
-    "meaning": "Hoạt bát, năng động, thành công tốt, tính đa nghi"
+    "meaning": "Hoạt bát, năng động, thành công tốt, tính đa nghi",
+    "score": 15
   },
   "2-4": {
     "luck": "Tốt",
-    "meaning": "Được giúp đỡ, tính khẳng khái, thích giao tiếp, thành công"
+    "meaning": "Được giúp đỡ, tính khẳng khái, thích giao tiếp, thành công",
+    "score": 20
   },
   "2-5": {
     "luck": "Được",
-    "meaning": "Tính hay thay đổi, ham danh lợi, tiếng tăm, ngoài ôn nhu trong cứng rắn, tính đố kỵ"
+    "meaning": "Tính hay thay đổi, ham danh lợi, tiếng tăm, ngoài ôn nhu trong cứng rắn, tính đố kỵ",
+    "score": 15
   },
   "2-6": {
     "luck": "Xấu",
-    "meaning": "Lòng vị tha cao, bị lợi dụng, tính thâm trầm, hay gặp tai họa"
+    "meaning": "Lòng vị tha cao, bị lợi dụng, tính thâm trầm, hay gặp tai họa",
+    "score": 5
   },
   "2-7": {
     "luck": "Xấu",
-    "meaning": "Lòng vị tha cao, bị lợi dụng, ngoài có vẻ ôn hòa nhưng bên trong đố kỵ"
+    "meaning": "Lòng vị tha cao, bị lợi dụng, ngoài có vẻ ôn hòa nhưng bên trong đố kỵ",
+    "score": 5
   },
   "2-8": {
     "luck": "Xấu",
-    "meaning": "Không thích giao tiếp, tính thâm trầm, hay gặp tai họa"
+    "meaning": "Không thích giao tiếp, tính thâm trầm, hay gặp tai họa",
+    "score": 5
   },
   "2-9": {
     "luck": "Được",
-    "meaning": "Tính nhẫn nại nhưng bất chấp thực tế, trọng chữ tín và có tinh thần trách nhiệm cao, thành công"
+    "meaning": "Tính nhẫn nại nhưng bất chấp thực tế, trọng chữ tín và có tinh thần trách nhiệm cao, thành công",
+    "score": 15
   },
   "2-10": {
     "luck": "Xấu",
-    "meaning": "Giàu lý trí, đa mưu túc trí, tính đa nghi, dễ gặp họa vì vật chất"
+    "meaning": "Giàu lý trí, đa mưu túc trí, tính đa nghi, dễ gặp họa vì vật chất",
+    "score": 5
   },
   "3-1": {
     "luck": "Được",
-    "meaning": "Tính nhạy cảm, có năng lực hoạt động, giao tiếp tốt, tháo vát, thành công"
+    "meaning": "Tính nhạy cảm, có năng lực hoạt động, giao tiếp tốt, tháo vát, thành công",
+    "score": 15
   },
   "3-2": {
     "luck": "Tốt",
-    "meaning": "Tính khẳng khái, ham danh lợi, hoang phí, bừa bãi, thích giao tiếp"
+    "meaning": "Tính khẳng khái, ham danh lợi, hoang phí, bừa bãi, thích giao tiếp",
+    "score": 20
   },
   "3-3": {
     "luck": "Xấu",
-    "meaning": "Không dứt khoát, dễ nóng giận, nhạy cảm và ham danh lợi"
+    "meaning": "Không dứt khoát, dễ nóng giận, nhạy cảm và ham danh lợi",
+    "score": 5
   },
   "3-4": {
     "luck": "Xấu",
-    "meaning": "Tính hiếu động, bên ngoài trầm tính mà bên trong nóng nảy, vất vả gian nan"
+    "meaning": "Tính hiếu động, bên ngoài trầm tính mà bên trong nóng nảy, vất vả gian nan",
+    "score": 5
   },
   "3-5": {
     "luck": "Tốt",
-    "meaning": "Trấn tĩnh, lạc quan, tận tình chu đáo, thành công"
+    "meaning": "Trấn tĩnh, lạc quan, tận tình chu đáo, thành công",
+    "score": 20
   },
   "3-6": {
     "luck": "Được",
-    "meaning": "Nghĩa hiệp, thành thục, đa tình, dễ bị hiểu lầm, thành công"
+    "meaning": "Nghĩa hiệp, thành thục, đa tình, dễ bị hiểu lầm, thành công",
+    "score": 15
   },
   "3-7": {
     "luck": "Được",
-    "meaning": "Tính tranh luận, tự chủ, độc lập, hiếu thắng, không thích hợp tác"
+    "meaning": "Tính tranh luận, tự chủ, độc lập, hiếu thắng, không thích hợp tác",
+    "score": 15
   },
   "3-8": {
     "luck": "Được",
-    "meaning": "Hay thay đổi, háo danh, dễ bị kích động, năng khiếu lãnh đạo"
+    "meaning": "Hay thay đổi, háo danh, dễ bị kích động, năng khiếu lãnh đạo",
+    "score": 15
   },
   "3-9": {
     "luck": "Được",
-    "meaning": "Chu đáo, tận tình quá nên làm phiền người, không mấy thành công"
+    "meaning": "Chu đáo, tận tình quá nên làm phiền người, không mấy thành công",
+    "score": 15
   },
   "3-10": {
     "luck": "Xấu",
-    "meaning": "Dễ bị hại, bị cướp bóc, trộm cắp, có công không hưởng, có lòng tốt"
+    "meaning": "Dễ bị hại, bị cướp bóc, trộm cắp, có công không hưởng, có lòng tốt",
+    "score": 5
   },
   "4-1": {
     "luck": "Rất tốt",
-    "meaning": "Số đào hoa, được giúp đỡ, tính quần chúng, giàu có, thành công lớn"
+    "meaning": "Số đào hoa, được giúp đỡ, tính quần chúng, giàu có, thành công lớn",
+    "score": 25
   },
   "4-2": {
     "luck": "Tốt",
-    "meaning": "Tốt bụng, nhiệt tâm, có nghị lực và lòng kiên trì, làm nên từ tay trắng"
+    "meaning": "Tốt bụng, nhiệt tâm, có nghị lực và lòng kiên trì, làm nên từ tay trắng",
+    "score": 20
   },
   "4-3": {
     "luck": "Xấu",
-    "meaning": "Thông minh, hoạt bát, lễ độ, hay thất tín, khó thành công"
+    "meaning": "Thông minh, hoạt bát, lễ độ, hay thất tín, khó thành công",
+    "score": 5
   },
   "4-4": {
     "luck": "Xấu",
-    "meaning": "Trầm tĩnh, trong lòng nóng nảy, tốt bụng, dễ bị lợi dụng bởi kẻ xấu"
+    "meaning": "Trầm tĩnh, trong lòng nóng nảy, tốt bụng, dễ bị lợi dụng bởi kẻ xấu",
+    "score": 5
   },
   "4-5": {
     "luck": "Được",
-    "meaning": "Thích cái mới, đổi mới, mưu trí, tính nóng nảy, ham danh tiếng, chức quyền"
+    "meaning": "Thích cái mới, đổi mới, mưu trí, tính nóng nảy, ham danh tiếng, chức quyền",
+    "score": 15
   },
   "4-6": {
     "luck": "Được",
-    "meaning": "Thành thực, tốt bụng, thẳng thắn, hay bị hiểu lầm, khó thành công"
+    "meaning": "Thành thực, tốt bụng, thẳng thắn, hay bị hiểu lầm, khó thành công",
+    "score": 15
   },
   "4-7": {
     "luck": "Xấu",
-    "meaning": "Quá câu nệ, chấp nhặt, thiếu thận trọng, hay bị ghen ghét, khó thành công"
+    "meaning": "Quá câu nệ, chấp nhặt, thiếu thận trọng, hay bị ghen ghét, khó thành công",
+    "score": 5
   },
   "4-8": {
     "luck": "Xấu",
-    "meaning": "Vị tha, cương trực, dễ bị hãm hại, hao tốn tài sản, khó thành công"
+    "meaning": "Vị tha, cương trực, dễ bị hãm hại, hao tốn tài sản, khó thành công",
+    "score": 5
   },
   "4-9": {
     "luck": "Rất xấu",
-    "meaning": "Giản dị, khiêm tốn, tốt bụng, hay bị hãm hại, bị lợi dụng"
+    "meaning": "Giản dị, khiêm tốn, tốt bụng, hay bị hãm hại, bị lợi dụng",
+    "score": 0
   },
   "4-10": {
     "luck": "Xấu",
-    "meaning": "Khẳng khái, thiện tâm, không khôn khéo, hay bị hiểu lầm, mình làm mà người hưởng"
+    "meaning": "Khẳng khái, thiện tâm, không khôn khéo, hay bị hiểu lầm, mình làm mà người hưởng",
+    "score": 5
   },
   "5-1": {
     "luck": "Tốt",
-    "meaning": "Nhiệt tình, thiếu quyết đoán, ít nói, hay làm, cần cù, thành công"
+    "meaning": "Nhiệt tình, thiếu quyết đoán, ít nói, hay làm, cần cù, thành công",
+    "score": 20
   },
   "5-2": {
     "luck": "Được",
-    "meaning": "Tốt bụng, thành thực, tốt, có tâm, không ngại khó, ít nói, khép lòng"
+    "meaning": "Tốt bụng, thành thực, tốt, có tâm, không ngại khó, ít nói, khép lòng",
+    "score": 15
   },
   "5-3": {
     "luck": "Tốt",
-    "meaning": "Ôn hòa, chu đáo, giỏi giao tiếp, thiếu đức hy sinh, thành công cao"
+    "meaning": "Ôn hòa, chu đáo, giỏi giao tiếp, thiếu đức hy sinh, thành công cao",
+    "score": 20
   },
   "5-4": {
     "luck": "Tốt",
-    "meaning": "Thiện tâm, nhân nghĩa, được kính trọng, dễ thành công"
+    "meaning": "Thiện tâm, nhân nghĩa, được kính trọng, dễ thành công",
+    "score": 20
   },
   "5-5": {
     "luck": "Tốt",
-    "meaning": "Trung hậu, có chí lớn, biết cách làm việc và hành xử, tính kiên định"
+    "meaning": "Trung hậu, có chí lớn, biết cách làm việc và hành xử, tính kiên định",
+    "score": 20
   },
   "5-6": {
     "luck": "Được",
-    "meaning": "Rộng lượng, thiếu quyết đoán và kiên trì, hay bỏ dở giữa chừng"
+    "meaning": "Rộng lượng, thiếu quyết đoán và kiên trì, hay bỏ dở giữa chừng",
+    "score": 15
   },
   "5-7": {
     "luck": "Rất tốt",
-    "meaning": "Bảo thủ, độc lập, có tài, khả năng lãnh đạo, thành công lớn"
+    "meaning": "Bảo thủ, độc lập, có tài, khả năng lãnh đạo, thành công lớn",
+    "score": 25
   },
   "5-8": {
     "luck": "Tốt",
-    "meaning": "Khẳng khái cương trực, thích tranh đấu, giao tiếp rộng, ít bạn thân, thành công"
+    "meaning": "Khẳng khái cương trực, thích tranh đấu, giao tiếp rộng, ít bạn thân, thành công",
+    "score": 20
   },
   "5-9": {
     "luck": "Xấu",
-    "meaning": "Tính ẩn nhẫn, thiếu cẩn thận, sáng suốt, vụng nói năng, khó thành công"
+    "meaning": "Tính ẩn nhẫn, thiếu cẩn thận, sáng suốt, vụng nói năng, khó thành công",
+    "score": 5
   },
   "5-10": {
     "luck": "Xấu",
-    "meaning": "Tính sỗ sàng, cô độc, dễ bị coi thường, không thành công"
+    "meaning": "Tính sỗ sàng, cô độc, dễ bị coi thường, không thành công",
+    "score": 5
   },
   "6-1": {
     "luck": "Xấu",
-    "meaning": "Chịu khó rèn luyện, có tính chịu đựng, hay đa nghi, thành công"
+    "meaning": "Chịu khó rèn luyện, có tính chịu đựng, hay đa nghi, thành công",
+    "score": 5
   },
   "6-2": {
     "luck": "Xấu",
-    "meaning": "Hiền từ, thiện tâm, tính khinh xuất, tự cao, mình làm cho người khác hưởng"
+    "meaning": "Hiền từ, thiện tâm, tính khinh xuất, tự cao, mình làm cho người khác hưởng",
+    "score": 5
   },
   "6-3": {
     "luck": "Rất tốt",
-    "meaning": "Phóng khoáng, khẳng khái, tài trí, dũng lược, dễ thành công"
+    "meaning": "Phóng khoáng, khẳng khái, tài trí, dũng lược, dễ thành công",
+    "score": 25
   },
   "6-4": {
     "luck": "Rất tốt",
-    "meaning": "Thiện tâm, bác ái, thích giúp người khó khăn, được trọng vọng, thành công lớn"
+    "meaning": "Thiện tâm, bác ái, thích giúp người khó khăn, được trọng vọng, thành công lớn",
+    "score": 25
   },
   "6-5": {
     "luck": "Tốt",
-    "meaning": "Thận trọng, trung hậu, lời nói đi đôi với việc làm, thiếu tính quyết đoán"
+    "meaning": "Thận trọng, trung hậu, lời nói đi đôi với việc làm, thiếu tính quyết đoán",
+    "score": 20
   },
   "6-6": {
     "luck": "Được",
-    "meaning": "Hào hiệp, rộng lượng, nhưng bảo thủ, khó thành công"
+    "meaning": "Hào hiệp, rộng lượng, nhưng bảo thủ, khó thành công",
+    "score": 15
   },
   "6-7": {
     "luck": "Được",
-    "meaning": "Hào hiệp giúp kẻ khó, thiếu chí tiến thủ, thích du lịch"
+    "meaning": "Hào hiệp giúp kẻ khó, thiếu chí tiến thủ, thích du lịch",
+    "score": 15
   },
   "6-8": {
     "luck": "Tốt",
-    "meaning": "Dũng cảm, giỏi chịu đựng, đa mưu, giả hoạt, thành công"
+    "meaning": "Dũng cảm, giỏi chịu đựng, đa mưu, giả hoạt, thành công",
+    "score": 20
   },
   "6-9": {
     "luck": "Xấu",
-    "meaning": "Trầm tĩnh, cương trực, có tính đố kỵ, ganh ghét, đa nghi, thâm hiểm"
+    "meaning": "Trầm tĩnh, cương trực, có tính đố kỵ, ganh ghét, đa nghi, thâm hiểm",
+    "score": 5
   },
   "6-10": {
     "luck": "Xấu",
-    "meaning": "Nóng nảy, thủ thường, làm cho người khác hưởng"
+    "meaning": "Nóng nảy, thủ thường, làm cho người khác hưởng",
+    "score": 5
   },
   "7-1": {
     "luck": "Xấu",
-    "meaning": "Có tài, tính gấp gáp, nóng nảy, bị người không ưa, hành vi thô bạo"
+    "meaning": "Có tài, tính gấp gáp, nóng nảy, bị người không ưa, hành vi thô bạo",
+    "score": 5
   },
   "7-2": {
     "luck": "Xấu",
-    "meaning": "Khẳng khái, rộng rãi, dễ bị kích động, bị chê cười, làm cho người hưởng"
+    "meaning": "Khẳng khái, rộng rãi, dễ bị kích động, bị chê cười, làm cho người hưởng",
+    "score": 5
   },
   "7-3": {
     "luck": "Xấu",
-    "meaning": "Tính cố chấp, có chí tiến thủ, nhưng tự cao, tự đại, dễ thất bại"
+    "meaning": "Tính cố chấp, có chí tiến thủ, nhưng tự cao, tự đại, dễ thất bại",
+    "score": 5
   },
   "7-4": {
     "luck": "Xấu",
-    "meaning": "Có năng lực xã giao, tài trí, tính bảo thủ, thường bị lấy oán trả ân"
+    "meaning": "Có năng lực xã giao, tài trí, tính bảo thủ, thường bị lấy oán trả ân",
+    "score": 5
   },
   "7-5": {
     "luck": "Tốt",
-    "meaning": "Ôn hòa, có sức chịu đựng và chí lớn, tính trầm tĩnh, chất phác, thành công"
+    "meaning": "Ôn hòa, có sức chịu đựng và chí lớn, tính trầm tĩnh, chất phác, thành công",
+    "score": 20
   },
   "7-6": {
     "luck": "Tốt",
-    "meaning": "Có nghị lực phấn đấu, tính mềm dẻo, song không sợ tranh đấu, có chí khí"
+    "meaning": "Có nghị lực phấn đấu, tính mềm dẻo, song không sợ tranh đấu, có chí khí",
+    "score": 20
   },
   "7-7": {
     "luck": "Tốt",
-    "meaning": "Lập nghiệp lớn, hào hiệp, mưu lược, thông minh"
+    "meaning": "Lập nghiệp lớn, hào hiệp, mưu lược, thông minh",
+    "score": 20
   },
   "7-8": {
     "luck": "Rất tốt",
-    "meaning": "Tài, đức, có uy lực, thanh cao, thành công"
+    "meaning": "Tài, đức, có uy lực, thanh cao, thành công",
+    "score": 25
   },
   "7-9": {
     "luck": "Tốt",
-    "meaning": "Tài trí hơn người, cương nghị, oai dũng, thành danh"
+    "meaning": "Tài trí hơn người, cương nghị, oai dũng, thành danh",
+    "score": 20
   },
   "7-10": {
     "luck": "Xấu",
-    "meaning": "Có tài ăn nói nhưng thiếu chí tiến thủ, dễ mất cơ hội"
+    "meaning": "Có tài ăn nói nhưng thiếu chí tiến thủ, dễ mất cơ hội",
+    "score": 5
   },
   "8-1": {
     "luck": "Được",
-    "meaning": "Cố chấp, cương cường nên dễ thất bại trong cuộc sống, phải tu dưỡng nhiều"
+    "meaning": "Cố chấp, cương cường nên dễ thất bại trong cuộc sống, phải tu dưỡng nhiều",
+    "score": 15
   },
   "8-2": {
     "luck": "Xấu",
-    "meaning": "Hành động thiếu thận trọng, dễ gặp tai họa"
+    "meaning": "Hành động thiếu thận trọng, dễ gặp tai họa",
+    "score": 5
   },
   "8-3": {
     "luck": "Xấu",
-    "meaning": "Nhiệt tình, dũng cảm, trọng nghĩa tình, không tham của, hay thất bại"
+    "meaning": "Nhiệt tình, dũng cảm, trọng nghĩa tình, không tham của, hay thất bại",
+    "score": 5
   },
   "8-4": {
     "luck": "Tốt",
-    "meaning": "Tính kiên nhẫn, có chí làm việc lớn, sáng suốt, gặp nhiều khó khăn, thành công"
+    "meaning": "Tính kiên nhẫn, có chí làm việc lớn, sáng suốt, gặp nhiều khó khăn, thành công",
+    "score": 20
   },
   "8-5": {
     "luck": "Rất tốt",
-    "meaning": "Tính kiên cường, dũng lược, có trước có sau trong hành xử, thành công rực rỡ"
+    "meaning": "Tính kiên cường, dũng lược, có trước có sau trong hành xử, thành công rực rỡ",
+    "score": 25
   },
   "8-6": {
     "luck": "Tốt",
-    "meaning": "Tính nhân từ, hào hiệp, chăm chỉ, thiếu quyết đoán"
+    "meaning": "Tính nhân từ, hào hiệp, chăm chỉ, thiếu quyết đoán",
+    "score": 20
   },
   "8-7": {
     "luck": "Tốt",
-    "meaning": "Tính tranh đấu, trọng nghĩa tình, có ý chí phấn đấu, đạt kết quả"
+    "meaning": "Tính tranh đấu, trọng nghĩa tình, có ý chí phấn đấu, đạt kết quả",
+    "score": 20
   },
   "8-8": {
     "luck": "Tốt",
-    "meaning": "Biết kiềm chế, kiên nhẫn, có thể thành công"
+    "meaning": "Biết kiềm chế, kiên nhẫn, có thể thành công",
+    "score": 20
   },
   "8-9": {
     "luck": "Tốt",
-    "meaning": "Thông minh, có tài, có phán đoán thiện tâm, được tôn trọng"
+    "meaning": "Thông minh, có tài, có phán đoán thiện tâm, được tôn trọng",
+    "score": 20
   },
   "8-10": {
     "luck": "Xấu",
-    "meaning": "Cương nghị, quyết đoán, xả thân, bị kẻ xấu lợi dụng"
+    "meaning": "Cương nghị, quyết đoán, xả thân, bị kẻ xấu lợi dụng",
+    "score": 5
   },
   "9-1": {
     "luck": "Rất tốt",
-    "meaning": "Có tài về kỹ nghệ, tính đôn hậu, thích giao tiếp, thành công lớn"
+    "meaning": "Có tài về kỹ nghệ, tính đôn hậu, thích giao tiếp, thành công lớn",
+    "score": 25
   },
   "9-2": {
     "luck": "Rất tốt",
-    "meaning": "Giàu trí tuệ, mưu lược, giao tiếp rộng, hảo tâm, thành công lớn"
+    "meaning": "Giàu trí tuệ, mưu lược, giao tiếp rộng, hảo tâm, thành công lớn",
+    "score": 25
   },
   "9-3": {
     "luck": "Được",
-    "meaning": "Tài trí, tự tin cao, tính cố chấp, hay thay đổi, thành công"
+    "meaning": "Tài trí, tự tin cao, tính cố chấp, hay thay đổi, thành công",
+    "score": 15
   },
   "9-4": {
     "luck": "Được",
-    "meaning": "Có năng lực, óc phán đoán, tính tự cao, kiêu căng, hiếu thắng, có lòng độ lượng"
+    "meaning": "Có năng lực, óc phán đoán, tính tự cao, kiêu căng, hiếu thắng, có lòng độ lượng",
+    "score": 15
   },
   "9-5": {
     "luck": "Được",
-    "meaning": "Có ý chí phấn đấu, hay gặp trở ngại, phải cố gắng mới thành công"
+    "meaning": "Có ý chí phấn đấu, hay gặp trở ngại, phải cố gắng mới thành công",
+    "score": 15
   },
   "9-6": {
     "luck": "Được",
-    "meaning": "Có năng lực hoạt động, thẳng thắn, trọng nghĩa, dễ bị hãm hại, bị lợi dụng bởi kẻ xấu"
+    "meaning": "Có năng lực hoạt động, thẳng thắn, trọng nghĩa, dễ bị hãm hại, bị lợi dụng bởi kẻ xấu",
+    "score": 15
   },
   "9-7": {
     "luck": "Rất tốt",
-    "meaning": "Thông minh, tài ăn nói biện luận, có ý chí phấn đấu, thành công lớn"
+    "meaning": "Thông minh, tài ăn nói biện luận, có ý chí phấn đấu, thành công lớn",
+    "score": 25
   },
   "9-8": {
     "luck": "Tốt",
-    "meaning": "Có trí tuệ, độ lượng, có dũng khí, chấp nhận thua thiệt"
+    "meaning": "Có trí tuệ, độ lượng, có dũng khí, chấp nhận thua thiệt",
+    "score": 20
   },
   "9-9": {
     "luck": "Được",
-    "meaning": "Có trí tuệ, mưu lược, đi vào nội tâm, có thể thành công"
+    "meaning": "Có trí tuệ, mưu lược, đi vào nội tâm, có thể thành công",
+    "score": 15
   },
   "9-10": {
     "luck": "Tốt",
-    "meaning": "Thông minh, có chí làm việc lớn, tính mềm dẻo, không ngại khó"
+    "meaning": "Thông minh, có chí làm việc lớn, tính mềm dẻo, không ngại khó",
+    "score": 20
   },
   "10-1": {
     "luck": "Tốt",
-    "meaning": "Thận trọng trong hành xử, tài trí, tính cố chấp, cứng rắn, thành công"
+    "meaning": "Thận trọng trong hành xử, tài trí, tính cố chấp, cứng rắn, thành công",
+    "score": 20
   },
   "10-2": {
     "luck": "Được",
-    "meaning": "Dũng khí, không có mưu lược, tính đam mê, có thể thành công"
+    "meaning": "Dũng khí, không có mưu lược, tính đam mê, có thể thành công",
+    "score": 15
   },
   "10-3": {
     "luck": "Xấu",
-    "meaning": "Thông minh, có lòng tự tin, tự cao, dễ bị ghen ghét, đố kỵ"
+    "meaning": "Thông minh, có lòng tự tin, tự cao, dễ bị ghen ghét, đố kỵ",
+    "score": 5
   },
   "10-4": {
     "luck": "Xấu",
-    "meaning": "Khổ cực, lưu lạc đó đây, phải cố gắng mọi mặt, dễ bị họa tai"
+    "meaning": "Khổ cực, lưu lạc đó đây, phải cố gắng mọi mặt, dễ bị họa tai",
+    "score": 5
   },
   "10-5": {
     "luck": "Được",
-    "meaning": "Tính kiên nhẫn, đa nghi, phải cố gắng mới đạt kết quả"
+    "meaning": "Tính kiên nhẫn, đa nghi, phải cố gắng mới đạt kết quả",
+    "score": 15
   },
   "10-6": {
     "luck": "Xấu",
-    "meaning": "Thông minh mà thiếu quyết đoán, trọng nghĩa tình, kém ứng biến, dễ bị kích động, mình làm cho người hưởng"
+    "meaning": "Thông minh mà thiếu quyết đoán, trọng nghĩa tình, kém ứng biến, dễ bị kích động, mình làm cho người hưởng",
+    "score": 5
   },
   "10-7": {
     "luck": "Được",
-    "meaning": "Có tài trí, giao thiệp rộng, hiếu thắng, có thể thành công"
+    "meaning": "Có tài trí, giao thiệp rộng, hiếu thắng, có thể thành công",
+    "score": 15
   },
   "10-8": {
     "luck": "Được",
-    "meaning": "Trí dũng tốt, kiên trì, nhưng thành công không cao"
+    "meaning": "Trí dũng tốt, kiên trì, nhưng thành công không cao",
+    "score": 15
   },
   "10-9": {
     "luck": "Được",
-    "meaning": "Có chí lớn, hành sự theo cảm tính, tính đôn hậu"
+    "meaning": "Có chí lớn, hành sự theo cảm tính, tính đôn hậu",
+    "score": 15
   },
   "10-10": {
     "luck": "Xấu",
-    "meaning": "Có tài biện luận, khẳng khái, hào hiệp, nhưng dễ bị kẻ xấu lợi dụng"
+    "meaning": "Có tài biện luận, khẳng khái, hào hiệp, nhưng dễ bị kẻ xấu lợi dụng",
+    "score": 5
   }
 }

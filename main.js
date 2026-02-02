@@ -1,18 +1,11 @@
 import { computeDestiny } from "./destiny.js";
 
-// Load JSON real data
-const nguHanh = await fetch("./data/ngu_hanh_125_full.json").then((r) =>
-  r.json(),
-);
-
-const menhPhu = await fetch("./data/menh_phu_link.json").then((r) => r.json());
-
 document.getElementById("btnPredict").addEventListener("click", () => {
   const name = document.getElementById("nameInput").value.trim();
   if (!name) return alert("Nhập họ tên trước!");
 
   // Compute destiny
-  const result = computeDestiny(name, nguHanh, menhPhu);
+  const result = computeDestiny(name);
 
   renderResult(result);
 });
@@ -25,8 +18,57 @@ function luckColor(luck) {
   return "bg-gray-100 text-gray-600";
 }
 
+function getRank(score) {
+  if (score >= 90)
+    return {
+      label: "🌟 Tuyệt phẩm (Đại Cát toàn phần)",
+      badge: "bg-green-100 text-green-800",
+      circle: "bg-green-500 text-white",
+    };
+
+  if (score >= 70)
+    return {
+      label: "✅ Tên rất đẹp (Ít khuyết điểm)",
+      badge: "bg-blue-100 text-blue-800",
+      circle: "bg-blue-500 text-white",
+    };
+
+  if (score >= 50)
+    return {
+      label: "⚠️ Tên khá (Cần nỗ lực vượt khó)",
+      badge: "bg-yellow-100 text-yellow-800",
+      circle: "bg-yellow-400 text-white",
+    };
+
+  return {
+    label: "❌ Tên xấu (Nên cân nhắc bí danh)",
+    badge: "bg-red-100 text-red-800",
+    circle: "bg-red-500 text-white",
+  };
+}
+
 function renderResult(data) {
   document.getElementById("results").classList.remove("hidden");
+
+   // ==============================
+  // SCORE BUBBLE UI
+  // ==============================
+  const total = data.scoring.totalScore;
+
+  // Score number
+  document.getElementById("totalScore").textContent = total;
+
+  // Rank styling
+  const rank = getRank(total);
+
+  // Badge text
+  const badge = document.getElementById("scoreRank");
+  badge.textContent = rank.label;
+  badge.className = `mt-2 inline-block px-4 py-2 rounded-xl font-semibold ${rank.badge}`;
+
+  // Circle color
+  const circle = document.getElementById("scoreCircle");
+  circle.className = `w-28 h-28 sm:w-32 sm:h-32 rounded-full flex items-center justify-center text-center font-extrabold text-3xl shadow-lg ${rank.circle}`;
 
   // Prediction list
   const list = document.getElementById("predictionList");

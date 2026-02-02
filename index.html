@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
@@ -40,6 +40,35 @@
 
       <!-- Results -->
       <div id="results" class="hidden mt-8 sm:mt-10 space-y-6 sm:space-y-8">
+        <!-- Total Score Bubble -->
+        <div
+          class="bg-white rounded-2xl shadow p-5 sm:p-6 flex flex-col sm:flex-row items-center gap-6"
+        >
+          <!-- Circle Badge -->
+          <div
+            id="scoreCircle"
+            class="w-28 h-28 sm:w-32 sm:h-32 rounded-full flex items-center justify-center text-center font-extrabold text-3xl shadow-lg"
+          >
+            <span id="totalScore"></span>
+          </div>
+
+          <!-- Rank Text -->
+          <div class="flex-1 text-center sm:text-left">
+            <h2 class="text-xl sm:text-2xl font-bold text-slate-800">
+              Xếp hạng tên
+            </h2>
+
+            <p
+              id="scoreRank"
+              class="mt-2 inline-block px-4 py-2 rounded-xl font-semibold text-sm sm:text-base"
+            ></p>
+
+            <p class="text-slate-500 mt-2 text-sm">
+              Điểm tổng hợp dựa trên 5 vận số học, Ba biểu thế và liên kết
+              Mệnh–Phụ.
+            </p>
+          </div>
+        </div>
         <!-- Prediction -->
         <div class="bg-white rounded-2xl shadow p-4 sm:p-6">
           <h2 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">

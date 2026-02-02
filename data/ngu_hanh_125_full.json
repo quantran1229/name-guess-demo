@@ -1,127 +1,752 @@
 {
-  "Mộc - Mộc - Mộc": "Tiền vận yên ổn; Trung vận kiên trì, nhân hậu; Hậu vận vững vàng nhưng có phần bảo thủ",
-  "Mộc - Mộc - Hỏa": "Tiền vận được gia đình trợ lực; Trung vận tự thân phát triển; Hậu vận rạng rỡ, danh tiếng phát đạt",
-  "Mộc - Mộc - Thổ": "Tiền vận bình hòa; Trung vận ổn định; Hậu vận dễ gặp trắc trở về đất đai hoặc sức khỏe (Mộc khắc Thổ)",
-  "Mộc - Mộc - Kim": "Tiền vận tốt; Trung vận nỗ lực; Hậu vận chịu nhiều áp lực, dễ bị ngoại cảnh chi phối (Kim khắc Mộc)",
-  "Mộc - Mộc - Thủy": "Tiền vận êm đềm; Trung vận được quý nhân phù trợ; Hậu vận viên mãn, trí tuệ minh mẫn",
-  "Mộc - Hỏa - Mộc": "Tiền vận hanh thông; Trung vận năng động, sáng tạo; Hậu vận quay về sự tĩnh lặng, bền vững",
-  "Mộc - Hỏa - Hỏa": "Tiền vận tốt; Trung vận phát triển nhanh; Hậu vận rực rỡ nhưng cần đề phòng sự nóng nảy",
-  "Mộc - Hỏa - Thổ": "(Đại Cát) Tiền vận được bồi đắp; Trung vận sự nghiệp thăng tiến; Hậu vận hưởng phúc đức, giàu sang",
-  "Mộc - Hỏa - Kim": "Tiền vận thuận lợi; Trung vận thăng trầm; Hậu vận dễ hao tổn tài lực do xung đột",
-  "Mộc - Hỏa - Thủy": "Tiền vận tốt; Trung vận gặp nghịch cảnh; Hậu vận cần chú ý sức khỏe tâm trí",
-  "Mộc - Thổ - Mộc": "Cuộc đời nhiều biến động; Tiền vận và Hậu vận đều kìm hãm bản mệnh",
-  "Mộc - Thổ - Hỏa": "Tiền vận vất vả; Trung vận cần nỗ lực tự thân; Hậu vận nhờ phúc đức mà khá lên",
-  "Mộc - Thổ - Thổ": "Tiền vận bị kìm kẹp; Trung vận và Hậu vận ổn định, trọng chữ tín",
-  "Mộc - Thổ - Kim": "Tiền vận khó khăn; Trung vận bình hòa; Hậu vận đạt được thành quả nhờ sự cứng rắn",
-  "Mộc - Thổ - Thủy": "(Đại Hung) Bản mệnh bị vùi lấp; Cuộc đời bôn ba, hậu vận không yên",
-  "Mộc - Kim - Mộc": "Tiền vận và Hậu vận xung khắc với bản mệnh; Cuộc đời cô độc, vất vả",
-  "Mộc - Kim - Hỏa": "Bản mệnh bị kìm hãm liên tục; Trung vận và Hậu vận nhiều gian truân",
-  "Mộc - Kim - Thổ": "Tiền vận bất ổn; Trung vận cương nghị; Hậu vận được trợ lực để ổn định",
-  "Mộc - Kim - Kim": "Tiền vận khó; Trung vận và Hậu vận cứng nhắc, dễ gãy đổ giữa chừng",
-  "Mộc - Kim - Thủy": "Tiền vận trắc trở; Trung vận bản lĩnh; Hậu vận thông minh, gặp nhiều may mắn",
-  "Mộc - Thủy - Mộc": "(Đại Cát) Tiền vận sinh trung vận; Trung vận sinh hậu vận; Cuộc đời như cây gặp nước, phát triển không ngừng",
-  "Mộc - Thủy - Hỏa": "Tiền vận tốt; Trung vận tài trí; Hậu vận dễ gặp họa bất ngờ (Thủy khắc Hỏa)",
-  "Mộc - Thủy - Thổ": "Tiền vận thuận; Trung vận giỏi ứng biến; Hậu vận bị cản trở, khó phát huy tài năng",
-  "Mộc - Thủy - Kim": "Tiền vận bình an; Trung vận trí tuệ; Hậu vận được trợ giúp mạnh mẽ về tiền bạc",
-  "Mộc - Thủy - Thủy": "Tiền vận êm đềm; Trung vận và Hậu vận trôi chảy, quảng giao nhưng dễ đa sầu đa cảm",
-  "Hỏa - Mộc - Mộc": "(Đại Cát) Tiền vận rạng rỡ; Trung vận và Hậu vận bền vững, nhân hậu",
-  "Hỏa - Mộc - Hỏa": "Vòng sinh tuần hoàn; Cuộc đời nhiều nhiệt huyết, hậu vận vang danh",
-  "Hỏa - Mộc - Thổ": "Tiền vận sáng sủa; Trung vận phát triển; Hậu vận tích lũy được nhiều sản nghiệp",
-  "Hỏa - Mộc - Kim": "Tiền vận tốt; Trung vận nỗ lực; Hậu vận gặp trở ngại, khó thành công lớn",
-  "Hỏa - Mộc - Thủy": "Tiền vận hanh thông; Trung vận bình hòa; Hậu vận dễ gặp tai họa (Thủy khắc Hỏa)",
-  "Hỏa - Hỏa - Mộc": "Tiền vận và Trung vận rực rỡ; Hậu vận được bồi đắp thêm sinh lực",
-  "Hỏa - Hỏa - Hỏa": "Cuộc đời nóng nảy, quá vượng dễ suy; Tiền vận phát sớm nhưng hậu vận cần tu tâm",
-  "Hỏa - Hỏa - Thổ": "(Đại Cát) Tiền vận năng động; Trung vận rạng rỡ; Hậu vận bình an, hưởng phúc thọ",
-  "Hỏa - Hỏa - Kim": "Tiền vận phát đạt; Trung vận thành công; Hậu vận dễ nát tán gia sản vì nóng nảy",
-  "Hỏa - Hỏa - Thủy": "Tiền vận tốt; Trung vận rực rỡ; Hậu vận gặp nạn bất ngờ, trắng tay",
-  "Hỏa - Thổ - Mộc": "Tiền vận hanh thông; Trung vận trung hậu; Hậu vận nhờ phúc đức mà ổn định",
-  "Hỏa - Thổ - Hỏa": "Vòng sinh hỗ tương; Cuộc đời nhiều may mắn, hậu vận rạng rỡ trở lại",
-  "Hỏa - Thổ - Thổ": "(Đại Cát) Cuộc đời vững như thạch bàn; Hậu vận giàu sang, con cháu hiển đạt",
-  "Hỏa - Thổ - Kim": "(Đại Cát) Chuỗi sinh liên hoàn; Từ tay trắng làm nên nghiệp lớn; Hậu vận vinh hiển",
-  "Hỏa - Thổ - Thủy": "Tiền vận tốt; Trung vận ổn định; Hậu vận gặp biến động lớn về tài chính",
-  "Hỏa - Kim - Mộc": "(Đại Hung) Bản mệnh bị khắc từ đầu và khắc ra cuối; Cuộc đời nhiều tai ương",
-  "Hỏa - Kim - Hỏa": "Bản mệnh bị thiêu cháy; Tiền vận và Hậu vận đều xung khắc mạnh mẽ",
-  "Hỏa - Kim - Thổ": "Tiền vận trắc trở; Trung vận bản lĩnh; Hậu vận được trợ lực để hồi phục",
-  "Hỏa - Kim - Kim": "Tiền vận khó; Trung vận và Hậu vận cô độc, cứng nhắc",
-  "Hỏa - Kim - Thủy": "Tiền vận vất vả; Trung vận cương quyết; Hậu vận hanh thông, tài lộc dồi dào",
-  "Hỏa - Thủy - Mộc": "(Đại Cát) Nhờ nghịch cảnh tiền vận mà trung vận và hậu vận phát đạt rực rỡ",
-  "Hỏa - Thủy - Hỏa": "(Đại Hung) Cuộc đời bấp bênh, nội tâm mâu thuẫn, tiền hậu bất nhất",
-  "Hỏa - Thủy - Thổ": "Tiền vận tốt; Trung vận tài trí; Hậu vận bị kìm kẹp, không như ý nguyện",
-  "Hỏa - Thủy - Kim": "Tiền vận vinh hiển; Trung vận biến động; Hậu vận được trợ lực để thành công",
-  "Hỏa - Thủy - Thủy": "Tiền vận rạng rỡ; Trung vận và Hậu vận mạnh mẽ nhưng dễ bị lôi kéo vào vòng danh lợi",
-  "Thổ - Mộc - Mộc": "Tiền vận kìm hãm bản mệnh; Trung vận và Hậu vận khởi sắc nhờ sự kiên trì",
-  "Thổ - Mộc - Hỏa": "Tiền vận khó khăn; Trung vận nỗ lực; Hậu vận đạt được vinh quang rực rỡ",
-  "Thổ - Mộc - Thổ": "Bản mệnh bị vùi lấp giữa hai giai đoạn; Cuộc đời nhiều uẩn ức, khó phát huy tài năng",
-  "Thổ - Mộc - Kim": "Tiền vận vất vả; Trung vận vươn lên; Hậu vận chịu áp lực lớn từ công việc",
-  "Thổ - Mộc - Thủy": "Tiền vận trắc trở; Trung vận kiên cường; Hậu vận dễ gặp thất bại do sự nóng nảy ngầm",
-  "Thổ - Hỏa - Mộc": "(Đại Cát) Tiền vận sinh trung vận; Trung vận sinh hậu vận; Cuộc đời hanh thông tuyệt vời",
-  "Thổ - Hỏa - Hỏa": "Tiền vận ổn định; Trung vận rực rỡ; Hậu vận phát đạt nhưng cần tiết chế cảm xúc",
-  "Thổ - Hỏa - Thổ": "Vòng sinh trợ; Bản mệnh được bảo bọc, hậu vận giàu sang vững chắc",
-  "Thổ - Hỏa - Kim": "Tiền vận tốt; Trung vận thăng tiến; Hậu vận dễ hao tổn do xung khắc",
-  "Thổ - Hỏa - Thủy": "Tiền vận bình an; Trung vận rạng rỡ; Hậu vận gặp biến cố lớn về sức khỏe",
-  "Thổ - Thổ - Mộc": "Tiền vận và Trung vận vững vàng; Hậu vận bị suy giảm do kìm hãm",
-  "Thổ - Thổ - Hỏa": "Tiền vận và Trung vận ổn định; Hậu vận phát triển rực rỡ nhờ sự trợ giúp",
-  "Thổ - Thổ - Thổ": "Cuộc đời bình lặng, trọng chữ tín; Cần sự năng động để không bị trì trệ",
-  "Thổ - Thổ - Kim": "(Đại Cát) Tiền vận được bồi đắp; Trung vận vững chắc; Hậu vận vinh hiển, tài lộc dồi dào",
-  "Thổ - Thổ - Thủy": "Tiền vận tốt; Trung vận ổn định; Hậu vận dễ gặp nạn tai liên quan đến nước",
-  "Thổ - Kim - Mộc": "Tiền vận sinh trợ; Trung vận thành công; Hậu vận trắc trở do tính cách cứng nhắc",
-  "Thổ - Kim - Hỏa": "Tiền vận thuận; Trung vận bản lĩnh; Hậu vận gặp biến động lớn do bị xung khắc",
-  "Thổ - Kim - Thổ": "Vòng sinh hồi quy; Cuộc đời gặp nhiều quý nhân, hậu vận viên mãn",
-  "Thổ - Kim - Kim": "Tiền vận tốt; Trung vận và Hậu vận cương nghị, gặt hái nhiều thành quả về vật chất",
-  "Thổ - Kim - Thủy": "(Đại Cát) Từ tay trắng làm nên nghiệp lớn; Trung vận oai dũng; Hậu vận giàu sang",
-  "Thổ - Thủy - Mộc": "(Đại Cát) Tiền vận khó nhưng nhờ trí tuệ mà trung và hậu vận thành đạt rực rỡ",
-  "Thổ - Thủy - Hỏa": "(Đại Hung) Bản mệnh bị khắc liên hoàn; Cuộc đời nhiều bi thảm, tai ương",
-  "Thổ - Thủy - Thổ": "Tiền vận và Hậu vận kìm hãm bản mệnh; Cuộc đời lưu lạc, khốn khó",
-  "Thổ - Thủy - Kim": "Tiền vận bất ổn; Trung vận tài trí; Hậu vận được trợ giúp mạnh mẽ để thành công",
-  "Thổ - Thủy - Thủy": "Tiền vận khó; Trung vận và Hậu vận mạnh mẽ nhưng cuộc đời nhiều chìm nổi",
-  "Kim - Mộc - Mộc": "Tiền vận khắc kìm hãm bản mệnh; Trung và Hậu vận nhờ nỗ lực mà thành đạt",
-  "Kim - Mộc - Hỏa": "(Đại Hung) Bản mệnh bị khắc ở đầu và thiêu ở cuối; Cuộc đời nhiều tai ương",
-  "Kim - Mộc - Thổ": "Tiền vận vất vả; Trung vận bản lĩnh; Hậu vận ổn định nhưng không đột phá",
-  "Kim - Mộc - Kim": "Bản mệnh bị kìm kẹp giữa hai giai đoạn; Cuộc đời cô độc, vất vả",
-  "Kim - Mộc - Thủy": "Tiền vận trắc trở; Trung vận kiên trì; Hậu vận thông minh, đạt được sở nguyện",
-  "Kim - Hỏa - Mộc": "Tiền vận và Trung vận xung đột; Hậu vận được bồi đắp khí lực để vươn lên",
-  "Kim - Hỏa - Hỏa": "Tiền vận khó khăn; Trung vận rực rỡ; Hậu vận nóng nảy dễ làm hỏng việc",
-  "Kim - Hỏa - Thổ": "(Đại Cát) Nhờ trắc trở tiền vận mà bản lĩnh trung vận tăng cao; Hậu vận hưởng phúc",
-  "Kim - Hỏa - Kim": "(Đại Hung) Cuộc đời như lò luyện; Bản mệnh bị thiêu đốt liên tục, khó yên ổn",
-  "Kim - Hỏa - Thủy": "Tiền vận trắc trở; Trung vận rạng rỡ; Hậu vận gặp biến cố lớn về sức khỏe",
-  "Kim - Thổ - Mộc": "Tiền vận sinh trợ; Trung vận ổn định; Hậu vận bị kìm hãm, khó phát đạt",
-  "Kim - Thổ - Hỏa": "Tiền vận hanh thông; Trung vận trung hậu; Hậu vận rạng rỡ nhờ sự trợ giúp",
-  "Kim - Thổ - Thổ": "(Đại Cát) Tiền vận được bảo bọc; Trung vận và Hậu vận vững chắc, giàu sang",
-  "Kim - Thổ - Kim": "(Đại Cát) Vòng sinh liên hoàn; Cuộc đời may mắn, trung vận và hậu vận đều vinh hiển",
-  "Kim - Thổ - Thủy": "Tiền vận thuận lợi; Trung vận vững vàng; Hậu vận thông minh, tài lộc dư dả",
-  "Kim - Kim - Mộc": "Tiền vận và Trung vận quá cứng nhắc; Hậu vận dễ gặp thất bại do thiếu linh hoạt",
-  "Kim - Kim - Hỏa": "Tiền vận ổn định; Trung vận bản lĩnh; Hậu vận bị xung khắc mạnh, trắng tay",
-  "Kim - Kim - Thổ": "Tiền vận tốt; Trung vận bản lĩnh; Hậu vận được trợ giúp để bền vững",
-  "Kim - Kim - Kim": "Cuộc đời cương cường nhưng dễ gãy; Cô độc và nhiều kẻ thù",
-  "Kim - Kim - Thủy": "(Đại Cát) Tiền vận và Trung vận tích lũy; Hậu vận bùng nổ, danh tiếng vang dội",
-  "Kim - Thủy - Mộc": "(Đại Cát) Chuỗi sinh viên mãn; Cuộc đời trôi chảy như dòng nước; Thành công rực rỡ",
-  "Kim - Thủy - Hỏa": "Tiền vận tốt; Trung vận tài trí; Hậu vận dễ gặp tai họa bất ngờ",
-  "Kim - Thủy - Thổ": "Tiền vận hanh thông; Trung vận giỏi ứng biến; Hậu vận bị kìm hãm, khó vươn xa",
-  "Kim - Thủy - Kim": "Vòng sinh hồi quy; Cuộc đời gặp nhiều quý nhân, hậu vận giàu sang, vinh hiển",
-  "Kim - Thủy - Thủy": "Tiền vận bình an; Trung vận và Hậu vận mạnh mẽ, quảng giao, thành công lớn",
-  "Thủy - Mộc - Mộc": "(Đại Cát) Được trợ giúp từ sớm; Cuộc đời thành đạt, hạnh phúc, sống thọ,",
-  "Thủy - Mộc - Hỏa": "(Đại Cát) Tiền vận sinh trung vận; Trung vận sinh hậu vận; Cuộc đời rạng rỡ",
-  "Thủy - Mộc - Thổ": "Tiền vận tốt; Trung vận nhân hậu; Hậu vận bị cản trở về điền sản, gia đạo",
-  "Thủy - Mộc - Kim": "Tiền vận hanh thông; Trung vận kiên trì; Hậu vận chịu nhiều áp lực, hao tổn sức khỏe",
-  "Thủy - Mộc - Thủy": "Vòng sinh hỗ tương; Cuộc đời nhiều trí tuệ, hậu vận viên mãn, nhiều may mắn",
-  "Thủy - Hỏa - Mộc": "Tiền vận xung khắc bản mệnh; Trung vận vươn lên; Hậu vận bền vững nhờ sự trợ giúp",
-  "Thủy - Hỏa - Hỏa": "Tiền vận khó; Trung vận rực rỡ; Hậu vận nóng nảy, dễ làm hỏng nghiệp lớn",
-  "Thủy - Hỏa - Thổ": "Tiền vận trắc trở; Trung vận thăng tiến; Hậu vận hưởng phúc đức, thọ trường",
-  "Thủy - Hỏa - Kim": "Tiền vận vất vả; Trung vận rạng rỡ; Hậu vận gặp biến cố lớn do xung khắc",
-  "Thủy - Hỏa - Thủy": "(Đại Hung) Bản mệnh bị dập tắt từ hai phía; Cuộc đời bấp bênh, cùng cực",
-  "Thủy - Thổ - Mộc": "Tiền vận và Hậu vận kìm hãm bản mệnh; Cuộc đời gian nan, khó thành nghiệp lớn",
-  "Thủy - Thổ - Hỏa": "Tiền vận trắc trở; Trung vận ổn định; Hậu vận nhờ nỗ lực mà phát đạt rực rỡ",
-  "Thủy - Thổ - Thổ": "Tiền vận vất vả; Trung vận và Hậu vận trung hậu, tích lũy được nhiều tài sản",
-  "Thủy - Thổ - Kim": "Tiền vận khó khăn; Trung vận bền bỉ; Hậu vận vinh hiển, từ tay trắng làm nên nghiệp lớn",
-  "Thủy - Thổ - Thủy": "(Đại Hung) Cuộc đời bôn ba, không nơi nương tựa, tiền vận và hậu vận đều bất ổn",
-  "Thủy - Kim - Mộc": "Tiền vận trắc trở; Trung vận cương quyết; Hậu vận đạt được thành công viên mãn",
-  "Thủy - Kim - Hỏa": "Tiền vận khó; Trung vận bản lĩnh; Hậu vận dễ gặp họa tai do xung khắc",
-  "Thủy - Kim - Thổ": "Tiền vận bất ổn; Trung vận thành công; Hậu vận bền vững nhờ phúc đức gia đình",
-  "Thủy - Kim - Kim": "Tiền vận vất vả; Trung vận và Hậu vận mạnh mẽ, gặt hái nhiều tài lộc vật chất",
-  "Thủy - Kim - Thủy": "(Đại Cát) Chuỗi sinh liên hoàn; Cuộc đời thông minh, mưu lược, trung hậu vận phát đạt rực rỡ",
-  "Thủy - Thủy - Mộc": "(Đại Cát) Tiền và Trung vận mạnh mẽ; Hậu vận phát triển rực rỡ như cây gặp nguồn nước lớn",
-  "Thủy - Thủy - Hỏa": "Tiền và Trung vận trôi chảy; Hậu vận gặp biến cố lớn về danh tiếng và sức khỏe",
-  "Thủy - Thủy - Thổ": "Tiền và Trung vận thuận lợi; Hậu vận bị kìm hãm, khó giữ được nghiệp lớn",
-  "Thủy - Thủy - Kim": "Tiền và Trung vận năng động; Hậu vận được trợ giúp về tiền bạc rất mạnh",
-  "Thủy - Thủy - Thủy": "Cuộc đời quá chìm nổi, quảng giao nhưng thiếu định hướng; Cần sự cứng rắn để thành công"
+  "Mộc - Mộc - Mộc": {
+    "full": "Mộc - Mộc - Mộc",
+    "short": "M - M - M",
+    "score": 18,
+    "meaning": "Tiền vận yên ổn; Trung vận kiên trì, nhân hậu; Hậu vận vững vàng nhưng có phần bảo thủ"
+  },
+  "Mộc - Mộc - Hỏa": {
+    "full": "Mộc - Mộc - Hỏa",
+    "short": "M - M - H",
+    "score": 25,
+    "meaning": "Tiền vận được gia đình trợ lực; Trung vận tự thân phát triển; Hậu vận rạng rỡ, danh tiếng phát đạt"
+  },
+  "Mộc - Mộc - Thổ": {
+    "full": "Mộc - Mộc - Thổ",
+    "short": "M - M - T",
+    "score": 5,
+    "meaning": "Tiền vận bình hòa; Trung vận ổn định; Hậu vận dễ gặp trắc trở về đất đai hoặc sức khỏe (Mộc khắc Thổ)"
+  },
+  "Mộc - Mộc - Kim": {
+    "full": "Mộc - Mộc - Kim",
+    "short": "M - M - K",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận nỗ lực; Hậu vận chịu nhiều áp lực, dễ bị ngoại cảnh chi phối (Kim khắc Mộc)"
+  },
+  "Mộc - Mộc - Thủy": {
+    "full": "Mộc - Mộc - Thủy",
+    "short": "M - M - Th",
+    "score": 18,
+    "meaning": "Tiền vận êm đềm; Trung vận được quý nhân phù trợ; Hậu vận viên mãn, trí tuệ minh mẫn"
+  },
+  "Mộc - Hỏa - Mộc": {
+    "full": "Mộc - Hỏa - Mộc",
+    "short": "M - H - M",
+    "score": 18,
+    "meaning": "Tiền vận hanh thông; Trung vận năng động, sáng tạo; Hậu vận quay về sự tĩnh lặng, bền vững"
+  },
+  "Mộc - Hỏa - Hỏa": {
+    "full": "Mộc - Hỏa - Hỏa",
+    "short": "M - H - H",
+    "score": 18,
+    "meaning": "Tiền vận tốt; Trung vận phát triển nhanh; Hậu vận rực rỡ nhưng cần đề phòng sự nóng nảy"
+  },
+  "Mộc - Hỏa - Thổ": {
+    "full": "Mộc - Hỏa - Thổ",
+    "short": "M - H - T",
+    "score": 25,
+    "meaning": "(Đại Cát) Tiền vận được bồi đắp; Trung vận sự nghiệp thăng tiến; Hậu vận hưởng phúc đức, giàu sang"
+  },
+  "Mộc - Hỏa - Kim": {
+    "full": "Mộc - Hỏa - Kim",
+    "short": "M - H - K",
+    "score": 5,
+    "meaning": "Tiền vận thuận lợi; Trung vận thăng trầm; Hậu vận dễ hao tổn tài lực do xung đột"
+  },
+  "Mộc - Hỏa - Thủy": {
+    "full": "Mộc - Hỏa - Thủy",
+    "short": "M - H - Th",
+    "score": 12,
+    "meaning": "Tiền vận tốt; Trung vận gặp nghịch cảnh; Hậu vận cần chú ý sức khỏe tâm trí"
+  },
+  "Mộc - Thổ - Mộc": {
+    "full": "Mộc - Thổ - Mộc",
+    "short": "M - T - M",
+    "score": 0,
+    "meaning": "Cuộc đời nhiều biến động; Tiền vận và Hậu vận đều kìm hãm bản mệnh"
+  },
+  "Mộc - Thổ - Hỏa": {
+    "full": "Mộc - Thổ - Hỏa",
+    "short": "M - T - H",
+    "score": 5,
+    "meaning": "Tiền vận vất vả; Trung vận cần nỗ lực tự thân; Hậu vận nhờ phúc đức mà khá lên"
+  },
+  "Mộc - Thổ - Thổ": {
+    "full": "Mộc - Thổ - Thổ",
+    "short": "M - T - T",
+    "score": 5,
+    "meaning": "Tiền vận bị kìm kẹp; Trung vận và Hậu vận ổn định, trọng chữ tín"
+  },
+  "Mộc - Thổ - Kim": {
+    "full": "Mộc - Thổ - Kim",
+    "short": "M - T - K",
+    "score": 12,
+    "meaning": "Tiền vận khó khăn; Trung vận bình hòa; Hậu vận đạt được thành quả nhờ sự cứng rắn"
+  },
+  "Mộc - Thổ - Thủy": {
+    "full": "Mộc - Thổ - Thủy",
+    "short": "M - T - Th",
+    "score": 0,
+    "meaning": "(Đại Hung) Bản mệnh bị vùi lấp; Cuộc đời bôn ba, hậu vận không yên"
+  },
+  "Mộc - Kim - Mộc": {
+    "full": "Mộc - Kim - Mộc",
+    "short": "M - K - M",
+    "score": 0,
+    "meaning": "Tiền vận và Hậu vận xung khắc với bản mệnh; Cuộc đời cô độc, vất vả"
+  },
+  "Mộc - Kim - Hỏa": {
+    "full": "Mộc - Kim - Hỏa",
+    "short": "M - K - H",
+    "score": 0,
+    "meaning": "Bản mệnh bị kìm hãm liên tục; Trung vận và Hậu vận nhiều gian truân"
+  },
+  "Mộc - Kim - Thổ": {
+    "full": "Mộc - Kim - Thổ",
+    "short": "M - K - T",
+    "score": 5,
+    "meaning": "Tiền vận bất ổn; Trung vận cương nghị; Hậu vận được trợ lực để ổn định"
+  },
+  "Mộc - Kim - Kim": {
+    "full": "Mộc - Kim - Kim",
+    "short": "M - K - K",
+    "score": 5,
+    "meaning": "Tiền vận khó; Trung vận và Hậu vận cứng nhắc, dễ gãy đổ giữa chừng"
+  },
+  "Mộc - Kim - Thủy": {
+    "full": "Mộc - Kim - Thủy",
+    "short": "M - K - Th",
+    "score": 18,
+    "meaning": "Tiền vận trắc trở; Trung vận bản lĩnh; Hậu vận thông minh, gặp nhiều may mắn"
+  },
+  "Mộc - Thủy - Mộc": {
+    "full": "Mộc - Thủy - Mộc",
+    "short": "M - Th - M",
+    "score": 18,
+    "meaning": "(Đại Cát) Tiền vận sinh trung vận; Trung vận sinh hậu vận; Cuộc đời như cây gặp nước, phát triển không ngừng"
+  },
+  "Mộc - Thủy - Hỏa": {
+    "full": "Mộc - Thủy - Hỏa",
+    "short": "M - Th - H",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận tài trí; Hậu vận dễ gặp họa bất ngờ (Thủy khắc Hỏa)"
+  },
+  "Mộc - Thủy - Thổ": {
+    "full": "Mộc - Thủy - Thổ",
+    "short": "M - Th - T",
+    "score": 5,
+    "meaning": "Tiền vận thuận; Trung vận giỏi ứng biến; Hậu vận bị cản trở, khó phát huy tài năng"
+  },
+  "Mộc - Thủy - Kim": {
+    "full": "Mộc - Thủy - Kim",
+    "short": "M - Th - K",
+    "score": 18,
+    "meaning": "Tiền vận bình an; Trung vận trí tuệ; Hậu vận được trợ giúp mạnh mẽ về tiền bạc"
+  },
+  "Mộc - Thủy - Thủy": {
+    "full": "Mộc - Thủy - Thủy",
+    "short": "M - Th - Th",
+    "score": 18,
+    "meaning": "Tiền vận êm đềm; Trung vận và Hậu vận trôi chảy, quảng giao nhưng dễ đa sầu đa cảm"
+  },
+  "Hỏa - Mộc - Mộc": {
+    "full": "Hỏa - Mộc - Mộc",
+    "short": "H - M - M",
+    "score": 25,
+    "meaning": "(Đại Cát) Tiền vận rạng rỡ; Trung vận và Hậu vận bền vững, nhân hậu"
+  },
+  "Hỏa - Mộc - Hỏa": {
+    "full": "Hỏa - Mộc - Hỏa",
+    "short": "H - M - H",
+    "score": 18,
+    "meaning": "Vòng sinh tuần hoàn; Cuộc đời nhiều nhiệt huyết, hậu vận vang danh"
+  },
+  "Hỏa - Mộc - Thổ": {
+    "full": "Hỏa - Mộc - Thổ",
+    "short": "H - M - T",
+    "score": 25,
+    "meaning": "Tiền vận sáng sủa; Trung vận phát triển; Hậu vận tích lũy được nhiều sản nghiệp"
+  },
+  "Hỏa - Mộc - Kim": {
+    "full": "Hỏa - Mộc - Kim",
+    "short": "H - M - K",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận nỗ lực; Hậu vận gặp trở ngại, khó thành công lớn"
+  },
+  "Hỏa - Mộc - Thủy": {
+    "full": "Hỏa - Mộc - Thủy",
+    "short": "H - M - Th",
+    "score": 5,
+    "meaning": "Tiền vận hanh thông; Trung vận bình hòa; Hậu vận dễ gặp tai họa (Thủy khắc Hỏa)"
+  },
+  "Hỏa - Hỏa - Mộc": {
+    "full": "Hỏa - Hỏa - Mộc",
+    "short": "H - H - M",
+    "score": 18,
+    "meaning": "Tiền vận và Trung vận rực rỡ; Hậu vận được bồi đắp thêm sinh lực"
+  },
+  "Hỏa - Hỏa - Hỏa": {
+    "full": "Hỏa - Hỏa - Hỏa",
+    "short": "H - H - H",
+    "score": 12,
+    "meaning": "Cuộc đời nóng nảy, quá vượng dễ suy; Tiền vận phát sớm nhưng hậu vận cần tu tâm"
+  },
+  "Hỏa - Hỏa - Thổ": {
+    "full": "Hỏa - Hỏa - Thổ",
+    "short": "H - H - T",
+    "score": 25,
+    "meaning": "(Đại Cát) Tiền vận năng động; Trung vận rạng rỡ; Hậu vận bình an, hưởng phúc thọ"
+  },
+  "Hỏa - Hỏa - Kim": {
+    "full": "Hỏa - Hỏa - Kim",
+    "short": "H - H - K",
+    "score": 5,
+    "meaning": "Tiền vận phát đạt; Trung vận thành công; Hậu vận dễ nát tán gia sản vì nóng nảy"
+  },
+  "Hỏa - Hỏa - Thủy": {
+    "full": "Hỏa - Hỏa - Thủy",
+    "short": "H - H - Th",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận rực rỡ; Hậu vận gặp nạn bất ngờ, trắng tay"
+  },
+  "Hỏa - Thổ - Mộc": {
+    "full": "Hỏa - Thổ - Mộc",
+    "short": "H - T - M",
+    "score": 18,
+    "meaning": "Tiền vận hanh thông; Trung vận trung hậu; Hậu vận nhờ phúc đức mà ổn định"
+  },
+  "Hỏa - Thổ - Hỏa": {
+    "full": "Hỏa - Thổ - Hỏa",
+    "short": "H - T - H",
+    "score": 18,
+    "meaning": "Vòng sinh hỗ tương; Cuộc đời nhiều may mắn, hậu vận rạng rỡ trở lại"
+  },
+  "Hỏa - Thổ - Thổ": {
+    "full": "Hỏa - Thổ - Thổ",
+    "short": "H - T - T",
+    "score": 25,
+    "meaning": "(Đại Cát) Cuộc đời vững như thạch bàn; Hậu vận giàu sang, con cháu hiển đạt"
+  },
+  "Hỏa - Thổ - Kim": {
+    "full": "Hỏa - Thổ - Kim",
+    "short": "H - T - K",
+    "score": 25,
+    "meaning": "(Đại Cát) Chuỗi sinh liên hoàn; Từ tay trắng làm nên nghiệp lớn; Hậu vận vinh hiển"
+  },
+  "Hỏa - Thổ - Thủy": {
+    "full": "Hỏa - Thổ - Thủy",
+    "short": "H - T - Th",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận ổn định; Hậu vận gặp biến động lớn về tài chính"
+  },
+  "Hỏa - Kim - Mộc": {
+    "full": "Hỏa - Kim - Mộc",
+    "short": "H - K - M",
+    "score": 0,
+    "meaning": "(Đại Hung) Bản mệnh bị khắc từ đầu và khắc ra cuối; Cuộc đời nhiều tai ương"
+  },
+  "Hỏa - Kim - Hỏa": {
+    "full": "Hỏa - Kim - Hỏa",
+    "short": "H - K - H",
+    "score": 0,
+    "meaning": "Bản mệnh bị thiêu cháy; Tiền vận và Hậu vận đều xung khắc mạnh mẽ"
+  },
+  "Hỏa - Kim - Thổ": {
+    "full": "Hỏa - Kim - Thổ",
+    "short": "H - K - T",
+    "score": 5,
+    "meaning": "Tiền vận trắc trở; Trung vận bản lĩnh; Hậu vận được trợ lực để hồi phục"
+  },
+  "Hỏa - Kim - Kim": {
+    "full": "Hỏa - Kim - Kim",
+    "short": "H - K - K",
+    "score": 5,
+    "meaning": "Tiền vận khó; Trung vận và Hậu vận cô độc, cứng nhắc"
+  },
+  "Hỏa - Kim - Thủy": {
+    "full": "Hỏa - Kim - Thủy",
+    "short": "H - K - Th",
+    "score": 12,
+    "meaning": "Tiền vận vất vả; Trung vận cương quyết; Hậu vận hanh thông, tài lộc dồi dào"
+  },
+  "Hỏa - Thủy - Mộc": {
+    "full": "Hỏa - Thủy - Mộc",
+    "short": "H - Th - M",
+    "score": 25,
+    "meaning": "(Đại Cát) Nhờ nghịch cảnh tiền vận mà trung vận và hậu vận phát đạt rực rỡ"
+  },
+  "Hỏa - Thủy - Hỏa": {
+    "full": "Hỏa - Thủy - Hỏa",
+    "short": "H - Th - H",
+    "score": 0,
+    "meaning": "(Đại Hung) Cuộc đời bấp bênh, nội tâm mâu thuẫn, tiền hậu bất nhất"
+  },
+  "Hỏa - Thủy - Thổ": {
+    "full": "Hỏa - Thủy - Thổ",
+    "short": "H - Th - T",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận tài trí; Hậu vận bị kìm kẹp, không như ý nguyện"
+  },
+  "Hỏa - Thủy - Kim": {
+    "full": "Hỏa - Thủy - Kim",
+    "short": "H - Th - K",
+    "score": 5,
+    "meaning": "Tiền vận vinh hiển; Trung vận biến động; Hậu vận được trợ lực để thành công"
+  },
+  "Hỏa - Thủy - Thủy": {
+    "full": "Hỏa - Thủy - Thủy",
+    "short": "H - Th - Th",
+    "score": 18,
+    "meaning": "Tiền vận rạng rỡ; Trung vận và Hậu vận mạnh mẽ nhưng dễ bị lôi kéo vào vòng danh lợi"
+  },
+  "Thổ - Mộc - Mộc": {
+    "full": "Thổ - Mộc - Mộc",
+    "short": "T - M - M",
+    "score": 5,
+    "meaning": "Tiền vận kìm hãm bản mệnh; Trung vận và Hậu vận khởi sắc nhờ sự kiên trì"
+  },
+  "Thổ - Mộc - Hỏa": {
+    "full": "Thổ - Mộc - Hỏa",
+    "short": "T - M - H",
+    "score": 18,
+    "meaning": "Tiền vận khó khăn; Trung vận nỗ lực; Hậu vận đạt được vinh quang rực rỡ"
+  },
+  "Thổ - Mộc - Thổ": {
+    "full": "Thổ - Mộc - Thổ",
+    "short": "T - M - T",
+    "score": 5,
+    "meaning": "Bản mệnh bị vùi lấp giữa hai giai đoạn; Cuộc đời nhiều uẩn ức, khó phát huy tài năng"
+  },
+  "Thổ - Mộc - Kim": {
+    "full": "Thổ - Mộc - Kim",
+    "short": "T - M - K",
+    "score": 12,
+    "meaning": "Tiền vận vất vả; Trung vận vươn lên; Hậu vận chịu áp lực lớn từ công việc"
+  },
+  "Thổ - Mộc - Thủy": {
+    "full": "Thổ - Mộc - Thủy",
+    "short": "T - M - Th",
+    "score": 5,
+    "meaning": "Tiền vận trắc trở; Trung vận kiên cường; Hậu vận dễ gặp thất bại do sự nóng nảy ngầm"
+  },
+  "Thổ - Hỏa - Mộc": {
+    "full": "Thổ - Hỏa - Mộc",
+    "short": "T - H - M",
+    "score": 18,
+    "meaning": "(Đại Cát) Tiền vận sinh trung vận; Trung vận sinh hậu vận; Cuộc đời hanh thông tuyệt vời"
+  },
+  "Thổ - Hỏa - Hỏa": {
+    "full": "Thổ - Hỏa - Hỏa",
+    "short": "T - H - H",
+    "score": 18,
+    "meaning": "Tiền vận ổn định; Trung vận rực rỡ; Hậu vận phát đạt nhưng cần tiết chế cảm xúc"
+  },
+  "Thổ - Hỏa - Thổ": {
+    "full": "Thổ - Hỏa - Thổ",
+    "short": "T - H - T",
+    "score": 25,
+    "meaning": "Vòng sinh trợ; Bản mệnh được bảo bọc, hậu vận giàu sang vững chắc"
+  },
+  "Thổ - Hỏa - Kim": {
+    "full": "Thổ - Hỏa - Kim",
+    "short": "T - H - K",
+    "score": 18,
+    "meaning": "Tiền vận tốt; Trung vận thăng tiến; Hậu vận dễ hao tổn do xung khắc"
+  },
+  "Thổ - Hỏa - Thủy": {
+    "full": "Thổ - Hỏa - Thủy",
+    "short": "T - H - Th",
+    "score": 5,
+    "meaning": "Tiền vận bình an; Trung vận rạng rỡ; Hậu vận gặp biến cố lớn về sức khỏe"
+  },
+  "Thổ - Thổ - Mộc": {
+    "full": "Thổ - Thổ - Mộc",
+    "short": "T - T - M",
+    "score": 5,
+    "meaning": "Tiền vận và Trung vận vững vàng; Hậu vận bị suy giảm do kìm hãm"
+  },
+  "Thổ - Thổ - Hỏa": {
+    "full": "Thổ - Thổ - Hỏa",
+    "short": "T - T - H",
+    "score": 18,
+    "meaning": "Tiền vận và Trung vận ổn định; Hậu vận phát triển rực rỡ nhờ sự trợ giúp"
+  },
+  "Thổ - Thổ - Thổ": {
+    "full": "Thổ - Thổ - Thổ",
+    "short": "T - T - T",
+    "score": 18,
+    "meaning": "Cuộc đời bình lặng, trọng chữ tín; Cần sự năng động để không bị trì trệ"
+  },
+  "Thổ - Thổ - Kim": {
+    "full": "Thổ - Thổ - Kim",
+    "short": "T - T - K",
+    "score": 25,
+    "meaning": "(Đại Cát) Tiền vận được bồi đắp; Trung vận vững chắc; Hậu vận vinh hiển, tài lộc dồi dào"
+  },
+  "Thổ - Thổ - Thủy": {
+    "full": "Thổ - Thổ - Thủy",
+    "short": "T - T - Th",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận ổn định; Hậu vận dễ gặp nạn tai liên quan đến nước"
+  },
+  "Thổ - Kim - Mộc": {
+    "full": "Thổ - Kim - Mộc",
+    "short": "T - K - M",
+    "score": 5,
+    "meaning": "Tiền vận sinh trợ; Trung vận thành công; Hậu vận trắc trở do tính cách cứng nhắc"
+  },
+  "Thổ - Kim - Hỏa": {
+    "full": "Thổ - Kim - Hỏa",
+    "short": "T - K - H",
+    "score": 5,
+    "meaning": "Tiền vận thuận; Trung vận bản lĩnh; Hậu vận gặp biến động lớn do bị xung khắc"
+  },
+  "Thổ - Kim - Thổ": {
+    "full": "Thổ - Kim - Thổ",
+    "short": "T - K - T",
+    "score": 18,
+    "meaning": "Vòng sinh hồi quy; Cuộc đời gặp nhiều quý nhân, hậu vận viên mãn"
+  },
+  "Thổ - Kim - Kim": {
+    "full": "Thổ - Kim - Kim",
+    "short": "T - K - K",
+    "score": 18,
+    "meaning": "Tiền vận tốt; Trung vận và Hậu vận cương nghị, gặt hái nhiều thành quả về vật chất"
+  },
+  "Thổ - Kim - Thủy": {
+    "full": "Thổ - Kim - Thủy",
+    "short": "T - K - Th",
+    "score": 25,
+    "meaning": "(Đại Cát) Từ tay trắng làm nên nghiệp lớn; Trung vận oai dũng; Hậu vận giàu sang"
+  },
+  "Thổ - Thủy - Mộc": {
+    "full": "Thổ - Thủy - Mộc",
+    "short": "T - Th - M",
+    "score": 18,
+    "meaning": "(Đại Cát) Tiền vận khó nhưng nhờ trí tuệ mà trung và hậu vận thành đạt rực rỡ"
+  },
+  "Thổ - Thủy - Hỏa": {
+    "full": "Thổ - Thủy - Hỏa",
+    "short": "T - Th - H",
+    "score": 0,
+    "meaning": "(Đại Hung) Bản mệnh bị khắc liên hoàn; Cuộc đời nhiều bi thảm, tai ương"
+  },
+  "Thổ - Thủy - Thổ": {
+    "full": "Thổ - Thủy - Thổ",
+    "short": "T - Th - T",
+    "score": 0,
+    "meaning": "Tiền vận và Hậu vận kìm hãm bản mệnh; Cuộc đời lưu lạc, khốn khó"
+  },
+  "Thổ - Thủy - Kim": {
+    "full": "Thổ - Thủy - Kim",
+    "short": "T - Th - K",
+    "score": 18,
+    "meaning": "Tiền vận bất ổn; Trung vận tài trí; Hậu vận được trợ giúp mạnh mẽ để thành công"
+  },
+  "Thổ - Thủy - Thủy": {
+    "full": "Thổ - Thủy - Thủy",
+    "short": "T - Th - Th",
+    "score": 5,
+    "meaning": "Tiền vận khó; Trung vận và Hậu vận mạnh mẽ nhưng cuộc đời nhiều chìm nổi"
+  },
+  "Kim - Mộc - Mộc": {
+    "full": "Kim - Mộc - Mộc",
+    "short": "K - M - M",
+    "score": 5,
+    "meaning": "Tiền vận khắc kìm hãm bản mệnh; Trung và Hậu vận nhờ nỗ lực mà thành đạt"
+  },
+  "Kim - Mộc - Hỏa": {
+    "full": "Kim - Mộc - Hỏa",
+    "short": "K - M - H",
+    "score": 0,
+    "meaning": "(Đại Hung) Bản mệnh bị khắc ở đầu và thiêu ở cuối; Cuộc đời nhiều tai ương"
+  },
+  "Kim - Mộc - Thổ": {
+    "full": "Kim - Mộc - Thổ",
+    "short": "K - M - T",
+    "score": 5,
+    "meaning": "Tiền vận vất vả; Trung vận bản lĩnh; Hậu vận ổn định nhưng không đột phá"
+  },
+  "Kim - Mộc - Kim": {
+    "full": "Kim - Mộc - Kim",
+    "short": "K - M - K",
+    "score": 5,
+    "meaning": "Bản mệnh bị kìm kẹp giữa hai giai đoạn; Cuộc đời cô độc, vất vả"
+  },
+  "Kim - Mộc - Thủy": {
+    "full": "Kim - Mộc - Thủy",
+    "short": "K - M - Th",
+    "score": 12,
+    "meaning": "Tiền vận trắc trở; Trung vận kiên trì; Hậu vận thông minh, đạt được sở nguyện"
+  },
+  "Kim - Hỏa - Mộc": {
+    "full": "Kim - Hỏa - Mộc",
+    "short": "K - H - M",
+    "score": 5,
+    "meaning": "Tiền vận và Trung vận xung đột; Hậu vận được bồi đắp khí lực để vươn lên"
+  },
+  "Kim - Hỏa - Hỏa": {
+    "full": "Kim - Hỏa - Hỏa",
+    "short": "K - H - H",
+    "score": 5,
+    "meaning": "Tiền vận khó khăn; Trung vận rực rỡ; Hậu vận nóng nảy dễ làm hỏng việc"
+  },
+  "Kim - Hỏa - Thổ": {
+    "full": "Kim - Hỏa - Thổ",
+    "short": "K - H - T",
+    "score": 18,
+    "meaning": "(Đại Cát) Nhờ trắc trở tiền vận mà bản lĩnh trung vận tăng cao; Hậu vận hưởng phúc"
+  },
+  "Kim - Hỏa - Kim": {
+    "full": "Kim - Hỏa - Kim",
+    "short": "K - H - K",
+    "score": 0,
+    "meaning": "(Đại Hung) Cuộc đời như lò luyện; Bản mệnh bị thiêu đốt liên tục, khó yên ổn"
+  },
+  "Kim - Hỏa - Thủy": {
+    "full": "Kim - Hỏa - Thủy",
+    "short": "K - H - Th",
+    "score": 0,
+    "meaning": "Tiền vận trắc trở; Trung vận rạng rỡ; Hậu vận gặp biến cố lớn về sức khỏe"
+  },
+  "Kim - Thổ - Mộc": {
+    "full": "Kim - Thổ - Mộc",
+    "short": "K - T - M",
+    "score": 5,
+    "meaning": "Tiền vận sinh trợ; Trung vận ổn định; Hậu vận bị kìm hãm, khó phát đạt"
+  },
+  "Kim - Thổ - Hỏa": {
+    "full": "Kim - Thổ - Hỏa",
+    "short": "K - T - H",
+    "score": 18,
+    "meaning": "Tiền vận hanh thông; Trung vận trung hậu; Hậu vận rạng rỡ nhờ sự trợ giúp"
+  },
+  "Kim - Thổ - Thổ": {
+    "full": "Kim - Thổ - Thổ",
+    "short": "K - T - T",
+    "score": 18,
+    "meaning": "(Đại Cát) Tiền vận được bảo bọc; Trung vận và Hậu vận vững chắc, giàu sang"
+  },
+  "Kim - Thổ - Kim": {
+    "full": "Kim - Thổ - Kim",
+    "short": "K - T - K",
+    "score": 25,
+    "meaning": "(Đại Cát) Vòng sinh liên hoàn; Cuộc đời may mắn, trung vận và hậu vận đều vinh hiển"
+  },
+  "Kim - Thổ - Thủy": {
+    "full": "Kim - Thổ - Thủy",
+    "short": "K - T - Th",
+    "score": 18,
+    "meaning": "Tiền vận thuận lợi; Trung vận vững vàng; Hậu vận thông minh, tài lộc dư dả"
+  },
+  "Kim - Kim - Mộc": {
+    "full": "Kim - Kim - Mộc",
+    "short": "K - K - M",
+    "score": 5,
+    "meaning": "Tiền vận và Trung vận quá cứng nhắc; Hậu vận dễ gặp thất bại do thiếu linh hoạt"
+  },
+  "Kim - Kim - Hỏa": {
+    "full": "Kim - Kim - Hỏa",
+    "short": "K - K - H",
+    "score": 5,
+    "meaning": "Tiền vận ổn định; Trung vận bản lĩnh; Hậu vận bị xung khắc mạnh, trắng tay"
+  },
+  "Kim - Kim - Thổ": {
+    "full": "Kim - Kim - Thổ",
+    "short": "K - K - T",
+    "score": 18,
+    "meaning": "Tiền vận tốt; Trung vận bản lĩnh; Hậu vận được trợ giúp để bền vững"
+  },
+  "Kim - Kim - Kim": {
+    "full": "Kim - Kim - Kim",
+    "short": "K - K - K",
+    "score": 12,
+    "meaning": "Cuộc đời cương cường nhưng dễ gãy; Cô độc và nhiều kẻ thù"
+  },
+  "Kim - Kim - Thủy": {
+    "full": "Kim - Kim - Thủy",
+    "short": "K - K - Th",
+    "score": 25,
+    "meaning": "(Đại Cát) Tiền vận và Trung vận tích lũy; Hậu vận bùng nổ, danh tiếng vang dội"
+  },
+  "Kim - Thủy - Mộc": {
+    "full": "Kim - Thủy - Mộc",
+    "short": "K - Th - M",
+    "score": 25,
+    "meaning": "(Đại Cát) Chuỗi sinh viên mãn; Cuộc đời trôi chảy như dòng nước; Thành công rực rỡ"
+  },
+  "Kim - Thủy - Hỏa": {
+    "full": "Kim - Thủy - Hỏa",
+    "short": "K - Th - H",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận tài trí; Hậu vận dễ gặp tai họa bất ngờ"
+  },
+  "Kim - Thủy - Thổ": {
+    "full": "Kim - Thủy - Thổ",
+    "short": "K - Th - T",
+    "score": 5,
+    "meaning": "Tiền vận hanh thông; Trung vận giỏi ứng biến; Hậu vận bị kìm hãm, khó vươn xa"
+  },
+  "Kim - Thủy - Kim": {
+    "full": "Kim - Thủy - Kim",
+    "short": "K - Th - K",
+    "score": 18,
+    "meaning": "Vòng sinh hồi quy; Cuộc đời gặp nhiều quý nhân, hậu vận giàu sang, vinh hiển"
+  },
+  "Kim - Thủy - Thủy": {
+    "full": "Kim - Thủy - Thủy",
+    "short": "K - Th - Th",
+    "score": 18,
+    "meaning": "Tiền vận bình an; Trung vận và Hậu vận mạnh mẽ, quảng giao, thành công lớn"
+  },
+  "Thủy - Mộc - Mộc": {
+    "full": "Thủy - Mộc - Mộc",
+    "short": "Th - M - M",
+    "score": 25,
+    "meaning": "(Đại Cát) Được trợ giúp từ sớm; Cuộc đời thành đạt, hạnh phúc, sống thọ,"
+  },
+  "Thủy - Mộc - Hỏa": {
+    "full": "Thủy - Mộc - Hỏa",
+    "short": "Th - M - H",
+    "score": 25,
+    "meaning": "(Đại Cát) Tiền vận sinh trung vận; Trung vận sinh hậu vận; Cuộc đời rạng rỡ"
+  },
+  "Thủy - Mộc - Thổ": {
+    "full": "Thủy - Mộc - Thổ",
+    "short": "Th - M - T",
+    "score": 5,
+    "meaning": "Tiền vận tốt; Trung vận nhân hậu; Hậu vận bị cản trở về điền sản, gia đạo"
+  },
+  "Thủy - Mộc - Kim": {
+    "full": "Thủy - Mộc - Kim",
+    "short": "Th - M - K",
+    "score": 18,
+    "meaning": "Tiền vận hanh thông; Trung vận kiên trì; Hậu vận chịu nhiều áp lực, hao tổn sức khỏe"
+  },
+  "Thủy - Mộc - Thủy": {
+    "full": "Thủy - Mộc - Thủy",
+    "short": "Th - M - Th",
+    "score": 18,
+    "meaning": "Vòng sinh hỗ tương; Cuộc đời nhiều trí tuệ, hậu vận viên mãn, nhiều may mắn"
+  },
+  "Thủy - Hỏa - Mộc": {
+    "full": "Thủy - Hỏa - Mộc",
+    "short": "Th - H - M",
+    "score": 18,
+    "meaning": "Tiền vận xung khắc bản mệnh; Trung vận vươn lên; Hậu vận bền vững nhờ sự trợ giúp"
+  },
+  "Thủy - Hỏa - Hỏa": {
+    "full": "Thủy - Hỏa - Hỏa",
+    "short": "Th - H - H",
+    "score": 5,
+    "meaning": "Tiền vận khó; Trung vận rực rỡ; Hậu vận nóng nảy, dễ làm hỏng nghiệp lớn"
+  },
+  "Thủy - Hỏa - Thổ": {
+    "full": "Thủy - Hỏa - Thổ",
+    "short": "Th - H - T",
+    "score": 18,
+    "meaning": "Tiền vận trắc trở; Trung vận thăng tiến; Hậu vận hưởng phúc đức, thọ trường"
+  },
+  "Thủy - Hỏa - Kim": {
+    "full": "Thủy - Hỏa - Kim",
+    "short": "Th - H - K",
+    "score": 5,
+    "meaning": "Tiền vận vất vả; Trung vận rạng rỡ; Hậu vận gặp biến cố lớn do xung khắc"
+  },
+  "Thủy - Hỏa - Thủy": {
+    "full": "Thủy - Hỏa - Thủy",
+    "short": "Th - H - Th",
+    "score": 0,
+    "meaning": "(Đại Hung) Bản mệnh bị dập tắt từ hai phía; Cuộc đời bấp bênh, cùng cực"
+  },
+  "Thủy - Thổ - Mộc": {
+    "full": "Thủy - Thổ - Mộc",
+    "short": "Th - T - M",
+    "score": 5,
+    "meaning": "Tiền vận và Hậu vận kìm hãm bản mệnh; Cuộc đời gian nan, khó thành nghiệp lớn"
+  },
+  "Thủy - Thổ - Hỏa": {
+    "full": "Thủy - Thổ - Hỏa",
+    "short": "Th - T - H",
+    "score": 5,
+    "meaning": "Tiền vận trắc trở; Trung vận ổn định; Hậu vận nhờ nỗ lực mà phát đạt rực rỡ"
+  },
+  "Thủy - Thổ - Thổ": {
+    "full": "Thủy - Thổ - Thổ",
+    "short": "Th - T - T",
+    "score": 5,
+    "meaning": "Tiền vận vất vả; Trung vận và Hậu vận trung hậu, tích lũy được nhiều tài sản"
+  },
+  "Thủy - Thổ - Kim": {
+    "full": "Thủy - Thổ - Kim",
+    "short": "Th - T - K",
+    "score": 18,
+    "meaning": "Tiền vận khó khăn; Trung vận bền bỉ; Hậu vận vinh hiển, từ tay trắng làm nên nghiệp lớn"
+  },
+  "Thủy - Thổ - Thủy": {
+    "full": "Thủy - Thổ - Thủy",
+    "short": "Th - T - Th",
+    "score": 0,
+    "meaning": "(Đại Hung) Cuộc đời bôn ba, không nơi nương tựa, tiền vận và hậu vận đều bất ổn"
+  },
+  "Thủy - Kim - Mộc": {
+    "full": "Thủy - Kim - Mộc",
+    "short": "Th - K - M",
+    "score": 18,
+    "meaning": "Tiền vận trắc trở; Trung vận cương quyết; Hậu vận đạt được thành công viên mãn"
+  },
+  "Thủy - Kim - Hỏa": {
+    "full": "Thủy - Kim - Hỏa",
+    "short": "Th - K - H",
+    "score": 5,
+    "meaning": "Tiền vận khó; Trung vận bản lĩnh; Hậu vận dễ gặp họa tai do xung khắc"
+  },
+  "Thủy - Kim - Thổ": {
+    "full": "Thủy - Kim - Thổ",
+    "short": "Th - K - T",
+    "score": 18,
+    "meaning": "Tiền vận bất ổn; Trung vận thành công; Hậu vận bền vững nhờ phúc đức gia đình"
+  },
+  "Thủy - Kim - Kim": {
+    "full": "Thủy - Kim - Kim",
+    "short": "Th - K - K",
+    "score": 18,
+    "meaning": "Tiền vận vất vả; Trung vận và Hậu vận mạnh mẽ, gặt hái nhiều tài lộc vật chất"
+  },
+  "Thủy - Kim - Thủy": {
+    "full": "Thủy - Kim - Thủy",
+    "short": "Th - K - Th",
+    "score": 25,
+    "meaning": "(Đại Cát) Chuỗi sinh liên hoàn; Cuộc đời thông minh, mưu lược, trung hậu vận phát đạt rực rỡ"
+  },
+  "Thủy - Thủy - Mộc": {
+    "full": "Thủy - Thủy - Mộc",
+    "short": "Th - Th - M",
+    "score": 25,
+    "meaning": "(Đại Cát) Tiền và Trung vận mạnh mẽ; Hậu vận phát triển rực rỡ như cây gặp nguồn nước lớn"
+  },
+  "Thủy - Thủy - Hỏa": {
+    "full": "Thủy - Thủy - Hỏa",
+    "short": "Th - Th - H",
+    "score": 5,
+    "meaning": "Tiền và Trung vận trôi chảy; Hậu vận gặp biến cố lớn về danh tiếng và sức khỏe"
+  },
+  "Thủy - Thủy - Thổ": {
+    "full": "Thủy - Thủy - Thổ",
+    "short": "Th - Th - T",
+    "score": 5,
+    "meaning": "Tiền và Trung vận thuận lợi; Hậu vận bị kìm hãm, khó giữ được nghiệp lớn"
+  },
+  "Thủy - Thủy - Kim": {
+    "full": "Thủy - Thủy - Kim",
+    "short": "Th - Th - K",
+    "score": 18,
+    "meaning": "Tiền và Trung vận năng động; Hậu vận được trợ giúp về tiền bạc rất mạnh"
+  },
+  "Thủy - Thủy - Thủy": {
+    "full": "Thủy - Thủy - Thủy",
+    "short": "Th - Th - Th",
+    "score": 12,
+    "meaning": "Cuộc đời quá chìm nổi, quảng giao nhưng thiếu định hướng; Cần sự cứng rắn để thành công"
+  }
 }
